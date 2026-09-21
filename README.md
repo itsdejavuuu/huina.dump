@@ -26,10 +26,6 @@ x64 DLL that dumps Garry's Mod client offsets, netvars and interfaces. Inject, i
 
 Dumped offsets: `entity_list`, `local_player`, `render`, `client_state`, `global_vars`, `view_setup`, `view_angles`, `force_jump` (RIP-relative), `bone_matrix`, `studio_hdr` (imm32)
 
-Interfaces: full sweep of every loaded DLL via the interface registry
-(`CreateInterface` + registry walk), not just a fixed version list.
-Entries with >50% garbage vtable slots are skipped.
-
 ## Sample dump
 
 `dump-21.09.2026/` — real output from Garry's Mod x64 (21.09.2026):
