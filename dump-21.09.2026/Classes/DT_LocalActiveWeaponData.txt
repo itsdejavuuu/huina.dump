@@ -1,0 +1,4 @@
+[DT_LocalActiveWeaponData] m_flNextPrimaryAttack: 0x1BD8 (VectorXY)
+[DT_LocalActiveWeaponData] m_flNextSecondaryAttack: 0x1BE0 (VectorXY)
+[DT_LocalActiveWeaponData] m_flTimeWeaponIdle: 0x1BE8 (VectorXY)
+[DT_LocalActiveWeaponData] m_nNextThinkTick: 0xCC (Int)

@@ -1,0 +1,2 @@
+[DT_PhysBoxMultiplayer] m_fMass: 0x16C4 (Float)
+[DT_PhysBoxMultiplayer] m_iPhysicsMode: 0x16C0 (Int)

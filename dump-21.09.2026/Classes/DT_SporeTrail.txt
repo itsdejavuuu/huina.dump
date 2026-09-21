@@ -1,0 +1,7 @@
+[DT_SporeTrail] m_bEmit: 0x180C (Int)
+[DT_SporeTrail] m_flEndSize: 0x17F8 (Float)
+[DT_SporeTrail] m_flParticleLifetime: 0x17F0 (Float)
+[DT_SporeTrail] m_flSpawnRadius: 0x17FC (Float)
+[DT_SporeTrail] m_flSpawnRate: 0x17EC (Float)
+[DT_SporeTrail] m_flStartSize: 0x17F4 (Float)
+[DT_SporeTrail] m_vecEndColor: 0x17E0 (Vector)

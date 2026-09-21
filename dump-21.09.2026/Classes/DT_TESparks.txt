@@ -1,0 +1,3 @@
+[DT_TESparks] m_nMagnitude: 0x30 (Int)
+[DT_TESparks] m_nTrailLength: 0x34 (Int)
+[DT_TESparks] m_vecDir: 0x38 (Vector)

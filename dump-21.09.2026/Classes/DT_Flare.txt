@@ -1,0 +1,5 @@
+[DT_Flare] m_bLight: 0x2A78 (Int)
+[DT_Flare] m_bPropFlare: 0x2A7A (Int)
+[DT_Flare] m_bSmoke: 0x2A79 (Int)
+[DT_Flare] m_flScale: 0x2A74 (Float)
+[DT_Flare] m_flTimeBurnOut: 0x2A70 (Float)

@@ -77,6 +77,7 @@ private:
     std::vector<dump::NetvarEntry> m_entries;
     std::vector<dump::ClassInfo> m_classes;
     std::vector<dump::ClassDump> m_classDumps;
+    std::vector<dump::ClassHierarchy> m_hierarchies;
     dump::WalkStats m_stats;
 };
 
@@ -122,7 +123,7 @@ bool DumpSession::ResolveSignatures() {
 }
 
 bool DumpSession::CollectInterfacesAndClasses() {
-    m_interfaces = dump::EnumerateInterfaces();
+    m_interfaces = dump::EnumerateAllInterfaces();
 
     types::Va vclient{};
     for (const std::string_view version : kVClientVersions) {
@@ -191,6 +192,7 @@ void DumpSession::DumpPerClass() {
         cur = node.m_pNext;
         ++guard;
     }
+    (void)dump::BuildHierarchies(m_head, m_lane, m_hierarchies);
 }
 
 bool DumpSession::WriteReport() {
@@ -202,6 +204,7 @@ bool DumpSession::WriteReport() {
         m_entries,
         m_classes,
         m_classDumps,
+        m_hierarchies,
         m_interfaces,
         m_lane,
         m_laneReliable,

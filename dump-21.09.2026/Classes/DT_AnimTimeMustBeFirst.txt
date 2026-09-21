@@ -1,0 +1,1 @@
+[DT_AnimTimeMustBeFirst] m_flAnimTime: 0xA0 (Int)

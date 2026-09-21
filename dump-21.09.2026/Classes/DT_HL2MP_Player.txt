@@ -1,0 +1,5 @@
+[DT_HL2MP_Player] hl2mplocaldata: 0x0 (DataTable)
+[DT_HL2MP_Player] hl2mpnonlocaldata: 0x0 (DataTable)
+[DT_HL2MP_Player] m_fIsWalking: 0x364C (Int)
+[DT_HL2MP_Player] m_hRagdoll: 0x3630 (Int)
+[DT_HL2MP_Player] m_iSpawnInterpCounter: 0x3674 (Int)

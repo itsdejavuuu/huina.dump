@@ -1,0 +1,3 @@
+[DT_WeaponPhysGun] m_hGrabbedEntity: 0x1CA8 (Int)
+[DT_WeaponPhysGun] m_hPhysBeam: 0x1CAC (Int)
+[DT_WeaponPhysGun] m_vHitPosLocal: 0x1CB0 (Vector)

@@ -303,4 +303,70 @@ bool WalkClass(sdk::RecvTable* root, std::vector<NetvarEntry>& out) {
     return !out.empty();
 }
 
+namespace {
+
+void BuildTableTree(sdk::RecvTable* table, int32_t base, int depth,
+                    std::vector<HierarchyProp>& out,
+                    std::vector<const sdk::RecvTable*>& stack) {
+    if (!table || depth > kMaxWalkDepth) return;
+    for (const sdk::RecvTable* t : stack) {
+        if (t == table) return;
+    }
+    TableHeader h;
+    if (!ReadTableHeader(table, h)) return;
+    stack.push_back(table);
+    for (int32_t i = 0; i < h.nProps; ++i) {
+        sdk::RecvProp prop{};
+        if (!seh::Bytes(static_cast<const void*>(h.props + i), &prop, sizeof(prop))) continue;
+        std::string nm;
+        if (!mem::ReadCStr(prop.m_pVarName, nm, kMaxStringLen)) continue;
+        HierarchyProp hp;
+        hp.name = std::move(nm);
+        hp.offset = base + prop.m_Offset;
+        hp.type = prop.m_RecvType;
+        hp.flags = prop.m_Flags;
+        if (prop.m_pDataTable) {
+            sdk::RecvTable* sub = prop.m_pDataTable;
+            TableHeader sh;
+            if (ReadTableHeader(sub, sh)) {
+                hp.table = sh.name;
+                BuildTableTree(sub, hp.offset, depth + 1, hp.children, stack);
+            }
+        }
+        out.push_back(std::move(hp));
+    }
+    stack.pop_back();
+}
+
+}
+
+bool BuildHierarchies(sdk::ClientClass* head, types::Lane lane,
+                      std::vector<ClassHierarchy>& out) {
+    out.clear();
+    if (!head) return false;
+    if (lane.raw() < 0 || lane.raw() > kMaxLaneProbe) lane = types::kDefaultLane;
+    sdk::ClientClass* cur = head;
+    std::size_t guard = 0;
+    while (cur && guard < kClassChainLimit) {
+        sdk::ClientClass node{};
+        if (!seh::Bytes(static_cast<const void*>(cur), &node, sizeof(node))) break;
+        std::string className;
+        if (mem::ReadCStr(node.m_pNetworkName, className, kMaxStringLen) && node.m_pRecvTable) {
+            ClassHierarchy ch;
+            ch.className = std::move(className);
+            ch.id = sdk::ReadClassId(node, lane).raw();
+            std::vector<const sdk::RecvTable*> stack;
+            TableHeader rh;
+            if (ReadTableHeader(node.m_pRecvTable, rh)) {
+                ch.rootTable = rh.name;
+                BuildTableTree(node.m_pRecvTable, 0, 0, ch.props, stack);
+            }
+            out.push_back(std::move(ch));
+        }
+        cur = node.m_pNext;
+        ++guard;
+    }
+    return !out.empty();
+}
+
 }

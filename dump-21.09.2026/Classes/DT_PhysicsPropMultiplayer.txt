@@ -1,0 +1,4 @@
+[DT_PhysicsPropMultiplayer] m_collisionMaxs: 0x1BEC (Vector)
+[DT_PhysicsPropMultiplayer] m_collisionMins: 0x1BE0 (Vector)
+[DT_PhysicsPropMultiplayer] m_fMass: 0x1BDC (Float)
+[DT_PhysicsPropMultiplayer] m_iPhysicsMode: 0x1BD8 (Int)

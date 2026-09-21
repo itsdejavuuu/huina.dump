@@ -1,0 +1,2 @@
+[DT_TEBeamPoints] m_vecEndPoint: 0x6C (Vector)
+[DT_TEBeamPoints] m_vecStartPoint: 0x60 (Vector)

@@ -1,0 +1,2 @@
+[DT_InfoOverlayAccessor] m_iTextureFrameIndex: 0x738 (Int)
+[DT_InfoOverlayAccessor] m_iOverlayID: 0x16B0 (Int)

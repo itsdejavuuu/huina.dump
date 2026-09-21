@@ -1,0 +1,3 @@
+[DT_GMODGameRulesProxy] gmod_gamerules_data: 0x0 (DataTable)
+[DT_GMODRules] m_fTimeScale: 0x40 (Float)
+[DT_GMODRules] m_iSkillLevel: 0x44 (Int)

@@ -1,0 +1,6 @@
+[DT_TEParticleSystem] m_vecOrigin[0]: 0x20 (Float)
+[DT_TEParticleSystem] m_vecOrigin[1]: 0x24 (Float)
+[DT_TEParticleSystem] m_vecOrigin[2]: 0x28 (Float)
+[DT_TEDust] m_flSize: 0x30 (Float)
+[DT_TEDust] m_flSpeed: 0x34 (Float)
+[DT_TEDust] m_vecDirection: 0x38 (Vector)

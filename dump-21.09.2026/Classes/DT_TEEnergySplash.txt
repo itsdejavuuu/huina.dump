@@ -1,0 +1,3 @@
+[DT_TEEnergySplash] m_bExplosive: 0x38 (Int)
+[DT_TEEnergySplash] m_vecDir: 0x2C (Vector)
+[DT_TEEnergySplash] m_vecPos: 0x20 (Vector)

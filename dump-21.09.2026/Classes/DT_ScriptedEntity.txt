@@ -1,0 +1,5 @@
+[DT_ScriptedEntity] m_strScriptName: 0x16C8 (String)
+[DT_ScriptedEntity] m_strScriptName: 0x1C68 (String)
+[DT_ScriptedEntity] m_strScriptName: 0x1CC0 (String)
+[DT_ScriptedEntity] m_strScriptName: 0x2940 (String)
+[DT_ScriptedEntity] m_strScriptName: 0x2950 (String)

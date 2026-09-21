@@ -1,0 +1,2 @@
+[DT_PropEnergyBall] m_bIsInfiniteLife: 0x1BF8 (Int)
+[DT_PropEnergyBall] m_fTimeTillDeath: 0x1BFC (Float)

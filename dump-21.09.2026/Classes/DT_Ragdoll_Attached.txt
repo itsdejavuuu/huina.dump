@@ -1,0 +1,4 @@
+[DT_Ragdoll_Attached] m_attachmentPointBoneSpace: 0x2008 (Vector)
+[DT_Ragdoll_Attached] m_attachmentPointRagdollSpace: 0x2020 (Vector)
+[DT_Ragdoll_Attached] m_boneIndexAttached: 0x2030 (Int)
+[DT_Ragdoll_Attached] m_ragdollAttachedObjectIndex: 0x202C (Int)

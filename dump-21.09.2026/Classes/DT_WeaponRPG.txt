@@ -1,0 +1,5 @@
+[DT_WeaponRPG] m_bGuiding: 0x1CC1 (Int)
+[DT_WeaponRPG] m_bHideGuiding: 0x1CC2 (Int)
+[DT_WeaponRPG] m_bInitialStateUpdate: 0x1CC0 (Int)
+[DT_WeaponRPG] m_hMissile: 0x1CC4 (Int)
+[DT_WeaponRPG] m_vecLaserDot: 0x1CC8 (Vector)

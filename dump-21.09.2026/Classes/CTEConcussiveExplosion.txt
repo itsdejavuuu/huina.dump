@@ -1,0 +1,7 @@
+[DT_TEParticleSystem] m_vecOrigin[0]: 0x20 (Float)
+[DT_TEParticleSystem] m_vecOrigin[1]: 0x24 (Float)
+[DT_TEParticleSystem] m_vecOrigin[2]: 0x28 (Float)
+[DT_TEConcussiveExplosion] m_vecNormal: 0x30 (Vector)
+[DT_TEConcussiveExplosion] m_flScale: 0x3C (Float)
+[DT_TEConcussiveExplosion] m_nRadius: 0x40 (Int)
+[DT_TEConcussiveExplosion] m_nMagnitude: 0x44 (Int)

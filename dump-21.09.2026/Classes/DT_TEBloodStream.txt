@@ -1,0 +1,6 @@
+[DT_TEBloodStream] a: 0x48 (Int)
+[DT_TEBloodStream] b: 0x44 (Int)
+[DT_TEBloodStream] g: 0x40 (Int)
+[DT_TEBloodStream] m_nAmount: 0x4C (Int)
+[DT_TEBloodStream] m_vecDirection: 0x30 (Vector)
+[DT_TEBloodStream] r: 0x3C (Int)

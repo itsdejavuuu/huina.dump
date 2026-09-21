@@ -1,0 +1,4 @@
+[DT_PropCombineBall] m_bEmit: 0x1BD4 (Int)
+[DT_PropCombineBall] m_bHeld: 0x1BDC (Int)
+[DT_PropCombineBall] m_bLaunched: 0x1BDD (Int)
+[DT_PropCombineBall] m_flRadius: 0x1BD8 (Float)

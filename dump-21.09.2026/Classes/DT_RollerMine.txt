@@ -1,0 +1,4 @@
+[DT_RollerMine] m_bHackedByAlyx: 0x2930 (Int)
+[DT_RollerMine] m_bIsOpen: 0x2928 (Int)
+[DT_RollerMine] m_bPowerDown: 0x2931 (Int)
+[DT_RollerMine] m_flActiveTime: 0x292C (Float)

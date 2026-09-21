@@ -1,0 +1,7 @@
+[DT_NPC_Strider] m_vecHitPos: 0x2990 (Vector)
+[DT_NPC_Strider] m_vecIKTarget[0]: 0x299C (Vector)
+[DT_NPC_Strider] m_vecIKTarget[1]: 0x29A8 (Vector)
+[DT_NPC_Strider] m_vecIKTarget[2]: 0x29B4 (Vector)
+[DT_NPC_Strider] m_vecIKTarget[3]: 0x29C0 (Vector)
+[DT_NPC_Strider] m_vecIKTarget[4]: 0x29CC (Vector)
+[DT_NPC_Strider] m_vecIKTarget[5]: 0x29D8 (Vector)

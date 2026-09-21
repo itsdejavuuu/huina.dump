@@ -1,0 +1,1 @@
+[DT_HL2MPGameRulesProxy] hl2mp_gamerules_data: 0x0 (DataTable)

@@ -1,0 +1,7 @@
+[DT_EnvTonemapController] m_bUseCustomAutoExposureMax: 0x16B1 (Int)
+[DT_EnvTonemapController] m_bUseCustomAutoExposureMin: 0x16B0 (Int)
+[DT_EnvTonemapController] m_bUseCustomBloomScale: 0x16B2 (Int)
+[DT_EnvTonemapController] m_flCustomAutoExposureMax: 0x16B8 (Float)
+[DT_EnvTonemapController] m_flCustomAutoExposureMin: 0x16B4 (Float)
+[DT_EnvTonemapController] m_flCustomBloomScale: 0x16BC (Float)
+[DT_EnvTonemapController] m_flCustomBloomScaleMinimum: 0x16C0 (Float)

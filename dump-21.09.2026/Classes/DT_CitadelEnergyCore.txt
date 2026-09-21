@@ -1,0 +1,5 @@
+[DT_CitadelEnergyCore] m_flDuration: 0x16B8 (Float)
+[DT_CitadelEnergyCore] m_flScale: 0x16B0 (Float)
+[DT_CitadelEnergyCore] m_flStartTime: 0x16BC (Float)
+[DT_CitadelEnergyCore] m_nState: 0x16B4 (Int)
+[DT_CitadelEnergyCore] m_spawnflags: 0x16C0 (Int)

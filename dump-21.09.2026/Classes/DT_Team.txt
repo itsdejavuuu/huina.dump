@@ -1,0 +1,6 @@
+[DT_Team] "player_array": 0x0 (Array)
+[DT_Team] m_iRoundsWon: 0x16F4 (Int)
+[DT_Team] m_iScore: 0x16F0 (Int)
+[DT_Team] m_iTeamNum: 0x1704 (Int)
+[DT_Team] m_szTeamname: 0x16D0 (String)
+[DT_Team] player_array_element: 0x0 (Int)

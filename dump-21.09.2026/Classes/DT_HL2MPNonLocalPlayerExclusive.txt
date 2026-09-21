@@ -1,0 +1,3 @@
+[DT_HL2MPNonLocalPlayerExclusive] m_angEyeAngles[0]: 0x35D0 (Float)
+[DT_HL2MPNonLocalPlayerExclusive] m_angEyeAngles[1]: 0x35D4 (Float)
+[DT_HL2MPNonLocalPlayerExclusive] m_vecOrigin: 0x438 (Vector)

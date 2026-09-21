@@ -1,0 +1,1 @@
+[DT_ServerAnimationData] m_flCycle: 0x19F0 (Float)

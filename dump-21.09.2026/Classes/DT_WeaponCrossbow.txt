@@ -1,0 +1,2 @@
+[DT_WeaponCrossbow] m_bInZoom: 0x1CAC (Int)
+[DT_WeaponCrossbow] m_bMustReload: 0x1CAD (Int)

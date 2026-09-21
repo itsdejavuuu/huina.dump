@@ -1,0 +1,1 @@
+[DT_LaserDot_HL1] m_bIsOn: 0x16C9 (Int)

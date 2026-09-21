@@ -1,0 +1,2 @@
+[DT_BasePropDoor] m_bLocked: 0x1BE9 (Int)
+[DT_BasePropDoor] m_eDoorState: 0x1BEC (Int)

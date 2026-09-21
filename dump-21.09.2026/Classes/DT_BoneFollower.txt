@@ -1,0 +1,2 @@
+[DT_BoneFollower] m_modelIndex: 0x16B0 (Int)
+[DT_BoneFollower] m_solidIndex: 0x16B4 (Int)

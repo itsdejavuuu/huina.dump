@@ -1,0 +1,5 @@
+[DT_TEDecal] m_nEntity: 0x38 (Int)
+[DT_TEDecal] m_nHitbox: 0x3C (Int)
+[DT_TEDecal] m_nIndex: 0x40 (Int)
+[DT_TEDecal] m_vecOrigin: 0x20 (Vector)
+[DT_TEDecal] m_vecStart: 0x2C (Vector)

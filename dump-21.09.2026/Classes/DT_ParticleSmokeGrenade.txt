@@ -1,0 +1,4 @@
+[DT_ParticleSmokeGrenade] m_CurrentStage: 0x17E8 (Int)
+[DT_ParticleSmokeGrenade] m_FadeEndTime: 0x1800 (Float)
+[DT_ParticleSmokeGrenade] m_FadeStartTime: 0x17FC (Float)
+[DT_ParticleSmokeGrenade] m_flSpawnTime: 0x17F8 (Float)

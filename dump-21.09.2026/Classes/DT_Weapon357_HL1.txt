@@ -1,0 +1,1 @@
+[DT_Weapon357_HL1] m_fInZoom: 0x1C70 (Float)

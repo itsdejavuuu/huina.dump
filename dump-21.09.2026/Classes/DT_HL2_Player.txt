@@ -1,0 +1,2 @@
+[DT_HL2_Player] m_HL2Local: 0x3540 (DataTable)
+[DT_HL2_Player] m_fIsSprinting: 0x35A0 (Int)

@@ -1,0 +1,1 @@
+[DT_RotorWashEmitter] m_flAltitude: 0x16B0 (Float)

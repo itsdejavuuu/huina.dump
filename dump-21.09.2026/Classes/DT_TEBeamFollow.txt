@@ -1,0 +1,1 @@
+[DT_TEBeamFollow] m_iEntIndex: 0x60 (Int)

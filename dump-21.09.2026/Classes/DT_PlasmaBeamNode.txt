@@ -1,0 +1,2 @@
+[DT_PlasmaBeamNode] m_bSprayOn: 0x16B0 (Int)
+[DT_PlasmaBeamNode] m_vecVelocity: 0x150 (Vector)

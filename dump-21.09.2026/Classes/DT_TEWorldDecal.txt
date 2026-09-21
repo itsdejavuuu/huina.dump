@@ -1,0 +1,2 @@
+[DT_TEWorldDecal] m_nIndex: 0x2C (Int)
+[DT_TEWorldDecal] m_vecOrigin: 0x20 (Vector)

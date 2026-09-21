@@ -1,0 +1,3 @@
+[DT_TEAntlionDust] m_bBlockedSpawner: 0x50 (Int)
+[DT_TEAntlionDust] m_vecAngles: 0x44 (Vector)
+[DT_TEAntlionDust] m_vecOrigin: 0x38 (Vector)

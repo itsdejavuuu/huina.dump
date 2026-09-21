@@ -1,0 +1,6 @@
+[DT_TEBubbles] m_vecMins: 0x20 (Vector)
+[DT_TEBubbles] m_vecMaxs: 0x2C (Vector)
+[DT_TEBubbles] m_fHeight: 0x38 (Float)
+[DT_TEBubbles] m_nModelIndex: 0x3C (Int)
+[DT_TEBubbles] m_nCount: 0x40 (Int)
+[DT_TEBubbles] m_fSpeed: 0x44 (Float)

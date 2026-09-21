@@ -1,0 +1,1 @@
+[DT_VortigauntEffectDispel] m_bFadeOut: 0x16C0 (Int)

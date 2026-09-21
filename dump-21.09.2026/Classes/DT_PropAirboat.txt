@@ -1,0 +1,5 @@
+[DT_PropAirboat] m_bHeadlightIsOn: 0x1D3C (Int)
+[DT_PropAirboat] m_nAmmoCount: 0x1D40 (Int)
+[DT_PropAirboat] m_nExactWaterLevel: 0x1D50 (Int)
+[DT_PropAirboat] m_nWaterLevel: 0x200 (Int)
+[DT_PropAirboat] m_vecPhysVelocity: 0x2238 (Vector)

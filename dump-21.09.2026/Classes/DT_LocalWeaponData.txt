@@ -1,0 +1,6 @@
+[DT_LocalWeaponData] m_bFlipViewModel: 0x1C30 (Int)
+[DT_LocalWeaponData] m_iClip1: 0x1C28 (Int)
+[DT_LocalWeaponData] m_iClip2: 0x1C2C (Int)
+[DT_LocalWeaponData] m_iPrimaryAmmoType: 0x1C20 (Int)
+[DT_LocalWeaponData] m_iSecondaryAmmoType: 0x1C24 (Int)
+[DT_LocalWeaponData] m_nViewModelIndex: 0x1BD0 (Int)

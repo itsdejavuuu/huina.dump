@@ -1,0 +1,3 @@
+[DT_MortarShell] m_flLifespan: 0x16C0 (Float)
+[DT_MortarShell] m_flRadius: 0x16C4 (Float)
+[DT_MortarShell] m_vecSurfaceNormal: 0x16CC (Vector)

@@ -30,6 +30,7 @@ struct Report {
     std::span<const dump::NetvarEntry> netvars;
     std::span<const dump::ClassInfo> classes;
     std::span<const dump::ClassDump> classDumps;
+    std::span<const dump::ClassHierarchy> hierarchies;
     std::span<const dump::InterfaceHandle> interfaces;
     types::Lane classIdLane{};
     bool laneReliable = false;

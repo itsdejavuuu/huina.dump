@@ -1,0 +1,5 @@
+[DT_ShadowControl] m_bDisableShadows: 0x16C4 (Int)
+[DT_ShadowControl] m_bEnableLocalLightShadows: 0x16C5 (Int)
+[DT_ShadowControl] m_flShadowMaxDist: 0x16C0 (Float)
+[DT_ShadowControl] m_shadowColor: 0x16BC (Int)
+[DT_ShadowControl] m_shadowDirection: 0x16B0 (Vector)

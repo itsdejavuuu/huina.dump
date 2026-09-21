@@ -1,0 +1,1 @@
+[DT_SENT_point] m_ScriptedEntity: 0x16B0 (DataTable)

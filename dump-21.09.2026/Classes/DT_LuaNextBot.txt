@@ -1,0 +1,2 @@
+[DT_LuaNextBot] m_ScriptedEntity: 0x2938 (DataTable)
+[DT_LuaNextBot] m_lifeState: 0xD7 (Int)

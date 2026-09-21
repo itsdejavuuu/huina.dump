@@ -1,0 +1,1 @@
+[DT_PlayerState] deadflag: 0x2C00 (Int)

@@ -1,0 +1,3 @@
+[DT_NPC_RocketTurret] m_iLaserState: 0x292C (Int)
+[DT_NPC_RocketTurret] m_nSiteHalo: 0x2930 (Int)
+[DT_NPC_RocketTurret] m_vecCurrentAngles: 0x2938 (Vector)

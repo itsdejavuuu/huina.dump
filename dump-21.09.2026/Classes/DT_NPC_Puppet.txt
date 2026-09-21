@@ -1,0 +1,2 @@
+[DT_NPC_Puppet] m_hAnimationTarget: 0x2928 (Int)
+[DT_NPC_Puppet] m_nTargetAttachment: 0x292C (Int)

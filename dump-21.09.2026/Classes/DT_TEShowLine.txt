@@ -1,0 +1,1 @@
+[DT_TEShowLine] m_vecEnd: 0x30 (Vector)

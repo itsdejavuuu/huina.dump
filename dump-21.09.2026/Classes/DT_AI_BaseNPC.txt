@@ -1,0 +1,7 @@
+[DT_AI_BaseNPC] m_bFadeCorpse: 0x2922 (Int)
+[DT_AI_BaseNPC] m_bImportanRagdoll: 0x2923 (Int)
+[DT_AI_BaseNPC] m_bIsMoving: 0x2921 (Int)
+[DT_AI_BaseNPC] m_bPerformAvoidance: 0x2920 (Int)
+[DT_AI_BaseNPC] m_iDeathFrame: 0x291C (Int)
+[DT_AI_BaseNPC] m_iDeathPose: 0x2918 (Int)
+[DT_AI_BaseNPC] m_lifeState: 0xD7 (Int)

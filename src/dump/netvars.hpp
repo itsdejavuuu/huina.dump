@@ -32,6 +32,22 @@ struct ClassDump {
     std::vector<NetvarEntry> props;
 };
 
+struct HierarchyProp {
+    std::string name;
+    int32_t offset = 0;
+    int type = -1;
+    int flags = 0;
+    std::string table;
+    std::vector<HierarchyProp> children;
+};
+
+struct ClassHierarchy {
+    std::string className;
+    int id = -1;
+    std::string rootTable;
+    std::vector<HierarchyProp> props;
+};
+
 struct WalkStats {
     std::size_t classes = 0;
     std::size_t classesWithoutTable = 0;
@@ -49,6 +65,11 @@ struct WalkStats {
     std::size_t classRows = 0;
     std::size_t fileNameCollisions = 0;
     std::size_t namespaceCollisions = 0;
+    std::size_t hierarchies = 0;
+    std::size_t hierarchyProps = 0;
+    std::size_t vtableIfaces = 0;
+    std::size_t vtableSlots = 0;
+    std::size_t vtableSkipped = 0;
 };
 
 [[nodiscard]] bool WalkAll(sdk::ClientClass* head, types::Lane lane,
@@ -57,5 +78,8 @@ struct WalkStats {
                            WalkStats& stats);
 
 [[nodiscard]] bool WalkClass(sdk::RecvTable* root, std::vector<NetvarEntry>& out);
+
+[[nodiscard]] bool BuildHierarchies(sdk::ClientClass* head, types::Lane lane,
+                                    std::vector<ClassHierarchy>& out);
 
 }

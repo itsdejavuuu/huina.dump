@@ -1,0 +1,5 @@
+[DT_TEClientProjectile] m_vecOrigin: 0x20 (Vector)
+[DT_TEClientProjectile] m_vecVelocity: 0x2C (Vector)
+[DT_TEClientProjectile] m_nModelIndex: 0x38 (Int)
+[DT_TEClientProjectile] m_nLifeTime: 0x3C (Int)
+[DT_TEClientProjectile] m_hOwner: 0x40 (Int)

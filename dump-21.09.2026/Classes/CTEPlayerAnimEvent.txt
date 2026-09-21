@@ -1,0 +1,3 @@
+[DT_TEPlayerAnimEvent] m_hPlayer: 0x20 (Int)
+[DT_TEPlayerAnimEvent] m_iEvent: 0x24 (Int)
+[DT_TEPlayerAnimEvent] m_nData: 0x28 (Int)

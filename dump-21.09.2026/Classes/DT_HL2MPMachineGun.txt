@@ -1,0 +1,1 @@
+[DT_HL2MPMachineGun] m_nShotsFired: 0x1CA8 (Int)

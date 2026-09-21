@@ -1,0 +1,2 @@
+[DT_DetailController] m_flFadeStartDist: 0x16B0 (Float)
+[DT_DetailController] m_flFadeEndDist: 0x16B4 (Float)

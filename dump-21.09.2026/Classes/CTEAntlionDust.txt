@@ -1,0 +1,6 @@
+[DT_TEParticleSystem] m_vecOrigin[0]: 0x20 (Float)
+[DT_TEParticleSystem] m_vecOrigin[1]: 0x24 (Float)
+[DT_TEParticleSystem] m_vecOrigin[2]: 0x28 (Float)
+[DT_TEAntlionDust] m_vecOrigin: 0x38 (Vector)
+[DT_TEAntlionDust] m_vecAngles: 0x44 (Vector)
+[DT_TEAntlionDust] m_bBlockedSpawner: 0x50 (Int)

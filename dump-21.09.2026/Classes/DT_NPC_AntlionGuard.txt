@@ -1,0 +1,3 @@
+[DT_NPC_AntlionGuard] m_bCavernBreed: 0x2928 (Int)
+[DT_NPC_AntlionGuard] m_bInCavern: 0x2929 (Int)
+[DT_NPC_AntlionGuard] m_iBleedingLevel: 0x2938 (Int)

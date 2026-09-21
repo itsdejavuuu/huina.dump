@@ -1,0 +1,4 @@
+[DT_TEBeamEntPoint] m_nEndEntity: 0x64 (Int)
+[DT_TEBeamEntPoint] m_nStartEntity: 0x60 (Int)
+[DT_TEBeamEntPoint] m_vecEndPoint: 0x74 (Vector)
+[DT_TEBeamEntPoint] m_vecStartPoint: 0x68 (Vector)

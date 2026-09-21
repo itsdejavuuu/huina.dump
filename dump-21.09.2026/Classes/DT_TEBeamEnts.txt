@@ -1,0 +1,2 @@
+[DT_TEBeamEnts] m_nEndEntity: 0x64 (Int)
+[DT_TEBeamEnts] m_nStartEntity: 0x60 (Int)

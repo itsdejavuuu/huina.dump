@@ -1,0 +1,2 @@
+[DT_TEGaussExplosion] m_nType: 0x30 (Int)
+[DT_TEGaussExplosion] m_vecDirection: 0x34 (Vector)

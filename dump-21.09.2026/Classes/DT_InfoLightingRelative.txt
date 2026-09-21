@@ -1,0 +1,1 @@
+[DT_InfoLightingRelative] m_hLightingLandmark: 0x16B0 (Int)

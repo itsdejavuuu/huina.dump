@@ -1,0 +1,2 @@
+[DT_WeaponSWEP] m_ScriptedEntity: 0x1CA8 (DataTable)
+[DT_WeaponSWEP] m_strHoldType: 0x1E20 (String)

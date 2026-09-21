@@ -1,0 +1,5 @@
+[DT_PropCrane] m_bEnterAnimOn: 0x1BD8 (Int)
+[DT_PropCrane] m_bExitAnimOn: 0x1BD9 (Int)
+[DT_PropCrane] m_bMagnetOn: 0x1BE8 (Int)
+[DT_PropCrane] m_hPlayer: 0x1BD0 (Int)
+[DT_PropCrane] m_vecEyeExitEndpoint: 0x1BDC (Vector)

@@ -1,0 +1,6 @@
+[DT_PropVehiclePrisonerPod] m_bEnterAnimOn: 0x1BE0 (Int)
+[DT_PropVehiclePrisonerPod] m_bExitAnimOn: 0x1BE1 (Int)
+[DT_PropVehiclePrisonerPod] m_bLimitView: 0x1BE2 (Int)
+[DT_PropVehiclePrisonerPod] m_bLocked: 0x1BE3 (Int)
+[DT_PropVehiclePrisonerPod] m_hPlayer: 0x1BD8 (Int)
+[DT_PropVehiclePrisonerPod] m_vecEyeExitEndpoint: 0x1BE4 (Vector)

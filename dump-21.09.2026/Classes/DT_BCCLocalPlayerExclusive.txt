@@ -1,0 +1,1 @@
+[DT_BCCLocalPlayerExclusive] m_flNextAttack: 0x2108 (VectorXY)

@@ -1,0 +1,2 @@
+[DT_SpotlightEnd] m_Radius: 0x16B4 (Float)
+[DT_SpotlightEnd] m_flLightScale: 0x16B0 (Float)

@@ -1,0 +1,2 @@
+[DT_Func_LOD] m_fDisappearMaxDist: 0x16B4 (Float)
+[DT_Func_LOD] m_fDisappearMinDist: 0x16B0 (Float)

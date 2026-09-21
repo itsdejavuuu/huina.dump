@@ -1,0 +1,1 @@
+[DT_PhysicsProp] m_bAwake: 0x1BC8 (Int)

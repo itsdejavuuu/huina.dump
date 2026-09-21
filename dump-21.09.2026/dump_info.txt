@@ -1,0 +1,26 @@
+huina_dump
+timestamp: 2026-09-21 21:51:14
+module: client.dll base=0x7FFE6B320000 size=12025856
+module: engine.dll base=0x7FFE8D220000 size=15015936
+classIdLane: 0x28 (reliable)
+classes: 252
+classes_without_recvtable: 0
+classes_skipped: 0
+table visits: 314
+netvar entries (unique): 5026
+netvar entries (total, with dupes): 5026
+duplicates removed: 0
+digit arrays expanded: 36
+memoized walk skips: 229
+skipped (digit lead): 3493
+skipped (bad name): 0
+table files: 230
+class files: 252
+class rows: 75833
+hierarchies: 252
+hierarchy props: 72372
+vtable ifaces: 214
+vtable slots: 6093
+vtable skipped (garbage): 6
+filename collisions: 0
+namespace collisions: 0

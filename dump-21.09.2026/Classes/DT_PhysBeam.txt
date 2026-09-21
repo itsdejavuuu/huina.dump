@@ -1,0 +1,4 @@
+[DT_PhysBeam] m_HoldPos: 0x16D4 (Vector)
+[DT_PhysBeam] m_bIsOn: 0x16E4 (Int)
+[DT_PhysBeam] m_hTargetEnt: 0x16E0 (Int)
+[DT_PhysBeam] m_iPhysBone: 0x16D0 (Int)

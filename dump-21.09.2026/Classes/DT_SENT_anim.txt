@@ -1,0 +1,1 @@
+[DT_SENT_anim] m_ScriptedEntity: 0x1C50 (DataTable)

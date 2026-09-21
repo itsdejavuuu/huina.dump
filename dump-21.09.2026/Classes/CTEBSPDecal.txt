@@ -1,0 +1,3 @@
+[DT_TEBSPDecal] m_vecOrigin: 0x20 (Vector)
+[DT_TEBSPDecal] m_nEntity: 0x2C (Int)
+[DT_TEBSPDecal] m_nIndex: 0x30 (Int)

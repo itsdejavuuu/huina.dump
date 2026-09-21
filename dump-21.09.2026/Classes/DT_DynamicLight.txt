@@ -1,0 +1,7 @@
+[DT_DynamicLight] m_Exponent: 0x16B8 (Int)
+[DT_DynamicLight] m_Flags: 0x16B0 (Int)
+[DT_DynamicLight] m_InnerAngle: 0x16BC (Float)
+[DT_DynamicLight] m_LightStyle: 0x16B1 (Int)
+[DT_DynamicLight] m_OuterAngle: 0x16C0 (Float)
+[DT_DynamicLight] m_Radius: 0x16B4 (Float)
+[DT_DynamicLight] m_SpotRadius: 0x16C4 (Float)

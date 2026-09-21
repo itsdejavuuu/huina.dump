@@ -1,0 +1,2 @@
+[DT_FireTrail] m_flLifetime: 0x17EC (Float)
+[DT_FireTrail] m_nAttachment: 0x17E8 (Int)

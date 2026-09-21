@@ -1,0 +1,3 @@
+[DT_AlyxEmpEffect] m_flDuration: 0x16B4 (Float)
+[DT_AlyxEmpEffect] m_flStartTime: 0x16B8 (Float)
+[DT_AlyxEmpEffect] m_nState: 0x16B0 (Int)

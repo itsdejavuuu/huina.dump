@@ -1,0 +1,6 @@
+[DT_HL2MPRagdoll] m_nModelIndex: 0xD4 (Int)
+[DT_HL2MPRagdoll] m_vecForce: 0x1708 (Vector)
+[DT_HL2MPRagdoll] m_nForceBone: 0x1714 (Int)
+[DT_HL2MPRagdoll] m_hPlayer: 0x1C48 (Int)
+[DT_HL2MPRagdoll] m_vecRagdollVelocity: 0x1C4C (Vector)
+[DT_HL2MPRagdoll] m_vecRagdollOrigin: 0x1C58 (Vector)

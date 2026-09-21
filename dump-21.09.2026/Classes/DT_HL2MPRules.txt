@@ -1,0 +1,1 @@
+[DT_HL2MPRules] m_bTeamPlayEnabled: 0x38 (Int)

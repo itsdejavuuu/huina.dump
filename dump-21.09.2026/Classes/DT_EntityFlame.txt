@@ -1,0 +1,1 @@
+[DT_EntityFlame] m_hEntAttached: 0x16B8 (Int)

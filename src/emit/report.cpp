@@ -3,12 +3,16 @@
 #include <algorithm>
 #include <cstdint>
 #include <fstream>
+#include <map>
 #include <set>
 #include <string>
 #include <utility>
 #include <vector>
 #include <windows.h>
+#include "core/mem.hpp"
+#include "core/seh.hpp"
 #include "core/text.hpp"
+#include "dump/interfaces.hpp"
 #include "sdk/recv.hpp"
 
 namespace hd::emit {
@@ -172,19 +176,199 @@ bool WriteClassFiles(const Report& r, const TableIndex& index, dump::WalkStats& 
     return true;
 }
 
-bool WriteInterfacesTxt(const Report& r) {
+namespace {
+
+struct ModBase {
+    uintptr_t base = 0;
+    std::size_t size = 0;
+    bool known = false;
+};
+
+[[nodiscard]] const ModBase& CachedModBase(const std::string& module) {
+    static std::map<std::string, ModBase> cache;
+    auto it = cache.find(module);
+    if (it != cache.end()) return it->second;
+    ModBase mb;
+    if (auto m = mem::Module::Acquire(module)) {
+        mb.base = m->base().raw();
+        mb.size = m->imageSize();
+        mb.known = true;
+    }
+    return cache.emplace(module, mb).first->second;
+}
+
+inline constexpr int kVtableSlots = 128;
+
+[[nodiscard]] bool IsExecAddr(uintptr_t addr) noexcept {
+    if (addr < 0x10000) return false;
+    MEMORY_BASIC_INFORMATION mbi{};
+    if (VirtualQuery(reinterpret_cast<LPCVOID>(addr), &mbi, sizeof(mbi)) == 0) return false;
+    if (mbi.State != MEM_COMMIT) return false;
+    constexpr DWORD kExec = PAGE_EXECUTE | PAGE_EXECUTE_READ |
+                            PAGE_EXECUTE_READWRITE | PAGE_EXECUTE_WRITECOPY;
+    return (mbi.Protect & kExec) != 0;
+}
+
+struct DumpedVtable {
+    const dump::InterfaceHandle* h = nullptr;
+    std::vector<uintptr_t> fns;
+    int garbage = 0;
+};
+
+[[nodiscard]] DumpedVtable DumpVtable(const dump::InterfaceHandle& h) {
+    DumpedVtable d;
+    d.h = &h;
+    if (!h.vtable.valid()) {
+        d.garbage = 1;
+        return d;
+    }
+    int consec = 0;
+    for (int s = 0; s < kVtableSlots; ++s) {
+        uintptr_t fn = 0;
+        const void* slot = reinterpret_cast<const void*>(
+            h.vtable.raw() + static_cast<uintptr_t>(s) * sizeof(void*));
+        const bool ok = seh::Peek(slot, fn) && fn && IsExecAddr(fn);
+        d.fns.push_back(ok ? fn : 0);
+        if (!ok) {
+            ++d.garbage;
+            if (++consec >= 2) break;
+        } else {
+            consec = 0;
+        }
+    }
+    return d;
+}
+
+[[nodiscard]] bool KeepVtable(const DumpedVtable& d) noexcept {
+    if (d.fns.empty()) return false;
+    return d.garbage * 2 <= static_cast<int>(d.fns.size());
+}
+
+[[nodiscard]] std::vector<DumpedVtable> SortedKeptVtables(const Report& r, dump::WalkStats* stats = nullptr) {
+    std::vector<DumpedVtable> out;
+    out.reserve(r.interfaces.size());
+    for (const auto& h : r.interfaces) {
+        DumpedVtable d = DumpVtable(h);
+        if (!KeepVtable(d)) {
+            if (stats) ++stats->vtableSkipped;
+            continue;
+        }
+        out.push_back(std::move(d));
+    }
+    std::sort(out.begin(), out.end(), [](const DumpedVtable& a, const DumpedVtable& b) {
+        if (a.h->module != b.h->module) return a.h->module < b.h->module;
+        return a.h->version < b.h->version;
+    });
+    return out;
+}
+
+}
+
+bool WriteVtablesTxt(const Report& r, dump::WalkStats& stats) {
+    std::ofstream f(r.dir + "\\interfaces_vtables.txt", std::ios::trunc);
+    if (!f) return false;
+
+    const std::vector<DumpedVtable> kept = SortedKeptVtables(r, &stats);
+    f << "vtables (" << kept.size() << " kept, " << stats.vtableSkipped
+      << " skipped, cap " << kVtableSlots << ")\n";
+    f << "index: absolute (module+RVA), ??? = garbage/end\n";
+    for (const DumpedVtable& d : kept) {
+        const dump::InterfaceHandle* i = d.h;
+        f << "\n[" << i->module << "] " << i->version
+          << " vtable=" << text::HexAddress(i->vtable.raw()) << "\n";
+        const ModBase& mb = CachedModBase(i->module);
+        ++stats.vtableIfaces;
+        for (std::size_t s = 0; s < d.fns.size(); ++s) {
+            const uintptr_t fn = d.fns[s];
+            if (!fn) {
+                f << "  [" << s << "] ???\n";
+                continue;
+            }
+            ++stats.vtableSlots;
+            if (mb.known && fn >= mb.base && fn < mb.base + mb.size) {
+                f << "  [" << s << "] " << text::HexAddress(fn) << " (" << i->module
+                  << "+0x" << std::hex << std::uppercase << (fn - mb.base) << std::dec << ")\n";
+            } else {
+                f << "  [" << s << "] " << text::HexAddress(fn) << "\n";
+            }
+        }
+    }
+    return true;
+}
+
+bool WriteInterfacesTxt(const Report& r, dump::WalkStats& stats) {
     std::ofstream f(r.dir + "\\interfaces.txt", std::ios::trunc);
     if (!f) return false;
 
-    f << "=== Interfaces (" << r.interfaces.size() << ") ===\n";
-    for (const dump::InterfaceHandle& i : r.interfaces) {
-        f << "[" << i.module << "] " << i.version << " = " << text::HexAddress(i.instance.raw())
-          << " (vtable " << text::HexAddress(i.vtable.raw()) << ")\n";
+    const std::vector<DumpedVtable> kept = SortedKeptVtables(r, nullptr);
+    (void)stats;
+    f << "interfaces (" << kept.size() << " kept, " << stats.vtableSkipped << " skipped)\n";
+    std::string lastModule;
+    for (const DumpedVtable& d : kept) {
+        const dump::InterfaceHandle* i = d.h;
+        if (i->module != lastModule) {
+            f << "\n[" << i->module << "]\n";
+            lastModule = i->module;
+        }
+        f << i->version << " = " << text::HexAddress(i->instance.raw())
+          << " (vtable " << text::HexAddress(i->vtable.raw())
+          << ", slots " << d.fns.size() << ")\n";
     }
-    f << "\n=== ClientClasses (" << r.classes.size() << ") ===\n";
+    f << "\nclient classes (" << r.classes.size() << ")\n";
     for (const dump::ClassInfo& c : r.classes) {
         f << c.name << " (id " << c.id << ") -> " << c.table << "\n";
     }
+    return true;
+}
+
+bool WriteInterfacesJson(const Report& r, dump::WalkStats& stats) {
+    std::ofstream f(r.dir + "\\interfaces.json", std::ios::trunc);
+    if (!f) return false;
+    const std::vector<DumpedVtable> kept = SortedKeptVtables(r, nullptr);
+    (void)stats;
+    f << "{\n  \"timestamp\": \"" << text::Timestamp() << "\",\n  \"interfaces\": [\n";
+    for (std::size_t i = 0; i < kept.size(); ++i) {
+        const dump::InterfaceHandle& h = *kept[i].h;
+        f << "    {\"module\": \"" << text::Json(h.module) << "\", \"version\": \""
+          << text::Json(h.version) << "\", \"instance\": \"" << text::HexAddress(h.instance.raw())
+          << "\", \"vtable\": \"" << text::HexAddress(h.vtable.raw())
+          << "\", \"slots\": " << kept[i].fns.size() << "}"
+          << (i + 1 < kept.size() ? "," : "") << "\n";
+    }
+    f << "  ]\n}\n";
+    return true;
+}
+
+namespace {
+
+void PrintHierarchyProps(std::ofstream& f, const std::vector<dump::HierarchyProp>& props,
+                         int depth, std::size_t& counter) {
+    std::string pad(static_cast<std::size_t>(depth) * 2, ' ');
+    for (const dump::HierarchyProp& p : props) {
+        ++counter;
+        f << pad << p.name << " +"
+          << text::Format("0x%X", static_cast<unsigned>(p.offset))
+          << " (" << sdk::PropTypeLabel(p.type) << ", flags " << p.flags << ")";
+        if (!p.table.empty()) f << " -> " << p.table;
+        f << "\n";
+        if (!p.children.empty()) PrintHierarchyProps(f, p.children, depth + 1, counter);
+    }
+}
+
+}
+
+bool WriteRecvHierarchy(const Report& r, dump::WalkStats& stats) {
+    std::ofstream f(r.dir + "\\recv_hierarchy.txt", std::ios::trunc);
+    if (!f) return false;
+    f << "recv hierarchy (" << r.hierarchies.size() << " classes)\n";
+    f << "class (id) -> root table, props with total offsets\n";
+    std::size_t props = 0;
+    for (const dump::ClassHierarchy& ch : r.hierarchies) {
+        f << "\n" << ch.className << " (id " << ch.id << ") -> " << ch.rootTable << "\n";
+        PrintHierarchyProps(f, ch.props, 1, props);
+    }
+    stats.hierarchies = r.hierarchies.size();
+    stats.hierarchyProps = props;
     return true;
 }
 
@@ -215,6 +399,11 @@ bool WriteInfoTxt(const Report& r, const dump::WalkStats& stats) {
     f << "table files: " << stats.tableFiles << "\n";
     f << "class files: " << stats.classFiles << "\n";
     f << "class rows: " << stats.classRows << "\n";
+    f << "hierarchies: " << stats.hierarchies << "\n";
+    f << "hierarchy props: " << stats.hierarchyProps << "\n";
+    f << "vtable ifaces: " << stats.vtableIfaces << "\n";
+    f << "vtable slots: " << stats.vtableSlots << "\n";
+    f << "vtable skipped (garbage): " << stats.vtableSkipped << "\n";
     f << "filename collisions: " << stats.fileNameCollisions << "\n";
     f << "namespace collisions: " << stats.namespaceCollisions << "\n";
     return true;
@@ -239,7 +428,10 @@ bool WriteAll(const Report& report, dump::WalkStats& stats, std::string& err) {
     if (!WriteOffsetsJson(report)) { err = "write offsets.json"; return false; }
     if (!WriteNetvarsTxt(report)) { err = "write netvars.txt"; return false; }
     if (!WriteNetvarsJson(report)) { err = "write netvars.json"; return false; }
-    if (!WriteInterfacesTxt(report)) { err = "write interfaces.txt"; return false; }
+    if (!WriteVtablesTxt(report, stats)) { err = "write interfaces_vtables.txt"; return false; }
+    if (!WriteInterfacesTxt(report, stats)) { err = "write interfaces.txt"; return false; }
+    if (!WriteInterfacesJson(report, stats)) { err = "write interfaces.json"; return false; }
+    if (!WriteRecvHierarchy(report, stats)) { err = "write recv_hierarchy.txt"; return false; }
     WriteClassFiles(report, index, stats);
     if (!WriteInfoTxt(report, stats)) { err = "write dump_info.txt"; return false; }
     return true;

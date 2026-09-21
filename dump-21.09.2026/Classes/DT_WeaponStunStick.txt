@@ -1,0 +1,1 @@
+[DT_WeaponStunStick] m_bActive: 0x1CFC (Int)

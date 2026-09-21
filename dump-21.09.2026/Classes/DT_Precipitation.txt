@@ -1,0 +1,5 @@
+[DT_Precipitation] m_flParticleDist: 0x194C (Float)
+[DT_Precipitation] m_nPrecipType: 0x16DC (Int)
+[DT_Precipitation] m_sParticleNameClose: 0x17CA (String)
+[DT_Precipitation] m_sParticleNameInner: 0x184A (String)
+[DT_Precipitation] m_sParticleNameOuter: 0x18CA (String)

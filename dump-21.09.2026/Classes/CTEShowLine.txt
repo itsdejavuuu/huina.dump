@@ -1,0 +1,4 @@
+[DT_TEParticleSystem] m_vecOrigin[0]: 0x20 (Float)
+[DT_TEParticleSystem] m_vecOrigin[1]: 0x24 (Float)
+[DT_TEParticleSystem] m_vecOrigin[2]: 0x28 (Float)
+[DT_TEShowLine] m_vecEnd: 0x30 (Vector)

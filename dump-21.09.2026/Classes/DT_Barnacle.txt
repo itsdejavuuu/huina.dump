@@ -1,0 +1,4 @@
+[DT_Barnacle] m_flAltitude: 0x2958 (Float)
+[DT_Barnacle] m_vecRoot: 0x2934 (Vector)
+[DT_Barnacle] m_vecTip: 0x2940 (Vector)
+[DT_Barnacle] m_vecTipDrawOffset: 0x294C (Vector)

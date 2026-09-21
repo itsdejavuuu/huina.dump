@@ -1,0 +1,5 @@
+[DT_WeaponSatchel] m_iChargeReady: 0x1C80 (Int)
+[DT_WeaponSatchel] m_iRadioViewIndex: 0x1C70 (Int)
+[DT_WeaponSatchel] m_iRadioWorldIndex: 0x1C74 (Int)
+[DT_WeaponSatchel] m_iSatchelViewIndex: 0x1C78 (Int)
+[DT_WeaponSatchel] m_iSatchelWorldIndex: 0x1C7C (Int)

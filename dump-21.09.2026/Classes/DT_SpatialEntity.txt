@@ -1,0 +1,5 @@
+[DT_SpatialEntity] m_bEnabled: 0x17CC (Int)
+[DT_SpatialEntity] m_flCurWeight: 0x16C4 (Float)
+[DT_SpatialEntity] m_maxFalloff: 0x16C0 (Float)
+[DT_SpatialEntity] m_minFalloff: 0x16BC (Float)
+[DT_SpatialEntity] m_vecOrigin: 0x16B0 (Vector)

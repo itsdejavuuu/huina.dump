@@ -1,0 +1,3 @@
+[DT_TEBeamRingPoint] m_flEndRadius: 0x70 (Float)
+[DT_TEBeamRingPoint] m_flStartRadius: 0x6C (Float)
+[DT_TEBeamRingPoint] m_vecCenter: 0x60 (Vector)

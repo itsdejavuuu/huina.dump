@@ -1,0 +1,6 @@
+[DT_BaseCombatWeapon] LocalActiveWeaponData: 0x0 (DataTable)
+[DT_BaseCombatWeapon] LocalWeaponData: 0x0 (DataTable)
+[DT_BaseCombatWeapon] m_hOwner: 0x1BC8 (Int)
+[DT_BaseCombatWeapon] m_iState: 0x1C14 (Int)
+[DT_BaseCombatWeapon] m_iViewModelIndex: 0x1BF0 (Int)
+[DT_BaseCombatWeapon] m_iWorldModelIndex: 0x1BF4 (Int)

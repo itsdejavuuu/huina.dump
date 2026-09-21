@@ -1,0 +1,4 @@
+[DT_Embers] m_bEmit: 0x16BC (Int)
+[DT_Embers] m_nDensity: 0x16B0 (Int)
+[DT_Embers] m_nLifetime: 0x16B4 (Int)
+[DT_Embers] m_nSpeed: 0x16B8 (Int)

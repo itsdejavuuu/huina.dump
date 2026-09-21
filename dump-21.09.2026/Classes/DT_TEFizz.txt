@@ -1,0 +1,4 @@
+[DT_TEFizz] m_nCurrent: 0x2C (Int)
+[DT_TEFizz] m_nDensity: 0x28 (Int)
+[DT_TEFizz] m_nEntity: 0x20 (Int)
+[DT_TEFizz] m_nModelIndex: 0x24 (Int)

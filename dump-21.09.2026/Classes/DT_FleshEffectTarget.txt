@@ -1,0 +1,2 @@
+[DT_FleshEffectTarget] m_flRadius: 0x16B0 (Float)
+[DT_FleshEffectTarget] m_flScaleTime: 0x16BC (Float)

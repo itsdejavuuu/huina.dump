@@ -1,0 +1,1 @@
+[DT_EnvAmbientLight] m_vecColor: 0x17D8 (Vector)

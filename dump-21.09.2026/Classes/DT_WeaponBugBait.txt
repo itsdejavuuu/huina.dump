@@ -1,0 +1,2 @@
+[DT_WeaponBugBait] m_bDrawBackFinished: 0x1CA8 (Int)
+[DT_WeaponBugBait] m_bRedraw: 0x1CA9 (Int)

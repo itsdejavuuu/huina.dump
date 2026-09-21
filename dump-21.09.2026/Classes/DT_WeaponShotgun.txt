@@ -1,0 +1,4 @@
+[DT_WeaponShotgun] m_bDelayedFire1: 0x1CA9 (Int)
+[DT_WeaponShotgun] m_bDelayedFire2: 0x1CAA (Int)
+[DT_WeaponShotgun] m_bDelayedReload: 0x1CAB (Int)
+[DT_WeaponShotgun] m_bNeedPump: 0x1CA8 (Int)

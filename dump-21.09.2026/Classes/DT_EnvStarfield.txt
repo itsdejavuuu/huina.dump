@@ -1,0 +1,2 @@
+[DT_EnvStarfield] m_bOn: 0x16B8 (Int)
+[DT_EnvStarfield] m_flDensity: 0x16BC (Float)

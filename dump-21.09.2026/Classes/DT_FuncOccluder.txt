@@ -1,0 +1,2 @@
+[DT_FuncOccluder] m_bActive: 0x16B4 (Int)
+[DT_FuncOccluder] m_nOccluderIndex: 0x16B0 (Int)

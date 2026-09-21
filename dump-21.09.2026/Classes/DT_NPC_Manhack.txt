@@ -1,0 +1,4 @@
+[DT_NPC_Manhack] m_flEnginePitch1Time: 0x2948 (Float)
+[DT_NPC_Manhack] m_flEnginePitch2Time: 0x294C (Float)
+[DT_NPC_Manhack] m_nEnginePitch1: 0x2940 (Int)
+[DT_NPC_Manhack] m_nEnginePitch2: 0x2944 (Int)

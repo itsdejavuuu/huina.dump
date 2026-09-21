@@ -1,0 +1,1 @@
+[DT_WeaponSnark] m_bJustThrown: 0x1C70 (Int)

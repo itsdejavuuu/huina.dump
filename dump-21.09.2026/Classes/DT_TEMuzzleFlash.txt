@@ -1,0 +1,4 @@
+[DT_TEMuzzleFlash] m_flScale: 0x38 (Float)
+[DT_TEMuzzleFlash] m_nType: 0x3C (Int)
+[DT_TEMuzzleFlash] m_vecAngles: 0x2C (Vector)
+[DT_TEMuzzleFlash] m_vecOrigin: 0x20 (Vector)

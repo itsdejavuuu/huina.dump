@@ -1,0 +1,7 @@
+[DT_VGuiScreen] m_fScreenFlags: 0x16E4 (Int)
+[DT_VGuiScreen] m_flHeight: 0x16BC (Float)
+[DT_VGuiScreen] m_flWidth: 0x16B8 (Float)
+[DT_VGuiScreen] m_hPlayerOwner: 0x1750 (Int)
+[DT_VGuiScreen] m_nAttachmentIndex: 0x16DC (Int)
+[DT_VGuiScreen] m_nOverlayMaterial: 0x16E0 (Int)
+[DT_VGuiScreen] m_nPanelName: 0x16C0 (Int)

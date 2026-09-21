@@ -1,0 +1,4 @@
+[DT_TEProjectedDecal] m_vecOrigin: 0x20 (Vector)
+[DT_TEProjectedDecal] m_angRotation: 0x2C (Vector)
+[DT_TEProjectedDecal] m_flDistance: 0x38 (Float)
+[DT_TEProjectedDecal] m_nIndex: 0x3C (Int)

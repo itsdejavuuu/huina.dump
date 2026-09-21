@@ -1,0 +1,5 @@
+[DT_TEParticleSystem] m_vecOrigin[0]: 0x20 (Float)
+[DT_TEParticleSystem] m_vecOrigin[1]: 0x24 (Float)
+[DT_TEParticleSystem] m_vecOrigin[2]: 0x28 (Float)
+[DT_TEGaussExplosion] m_nType: 0x30 (Int)
+[DT_TEGaussExplosion] m_vecDirection: 0x34 (Vector)

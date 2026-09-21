@@ -1,0 +1,4 @@
+[DT_WeaponPistol] m_flAccuracyPenalty: 0x1CC8 (Float)
+[DT_WeaponPistol] m_flLastAttackTime: 0x1CC0 (VectorXY)
+[DT_WeaponPistol] m_flSoonestPrimaryAttack: 0x1CB8 (VectorXY)
+[DT_WeaponPistol] m_nNumShotsFired: 0x1CCC (Int)

@@ -1,0 +1,2 @@
+[DT_WeaponShotgun_HL1] m_fInSpecialReload: 0x1C74 (Int)
+[DT_WeaponShotgun_HL1] m_flPumpTime: 0x1C70 (Float)

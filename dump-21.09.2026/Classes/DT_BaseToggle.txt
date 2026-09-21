@@ -1,0 +1,3 @@
+[DT_BaseToggle] m_flMoveTargetTime: 0x16D4 (Float)
+[DT_BaseToggle] m_movementType: 0x16D0 (Int)
+[DT_BaseToggle] m_vecFinalDest: 0x16C4 (Vector)

@@ -17,6 +17,11 @@ struct InterfaceHandle {
 
 [[nodiscard]] std::vector<InterfaceHandle> EnumerateInterfaces();
 
+[[nodiscard]] std::vector<InterfaceHandle> EnumerateAllInterfaces();
+
+[[nodiscard]] bool IsCheatInterface(std::string_view module,
+                                    std::string_view version) noexcept;
+
 [[nodiscard]] types::Va GrabInterface(std::string_view module, std::string_view version) noexcept;
 
 [[nodiscard]] sdk::ClientClass* FindClassListHead(void* clientInstance) noexcept;

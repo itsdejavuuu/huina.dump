@@ -1,0 +1,3 @@
+[DT_WeaponFrag] m_AttackPaused: 0x1CAC (Int)
+[DT_WeaponFrag] m_bRedraw: 0x1CA8 (Int)
+[DT_WeaponFrag] m_fDrawbackFinished: 0x1CB0 (Int)

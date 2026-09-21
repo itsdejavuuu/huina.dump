@@ -1,0 +1,2 @@
+[DT_EnvScreenEffect] m_flDuration: 0x16B0 (Float)
+[DT_EnvScreenEffect] m_nType: 0x16B4 (Int)

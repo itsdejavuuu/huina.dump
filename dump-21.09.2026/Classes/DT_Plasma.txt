@@ -1,0 +1,7 @@
+[DT_Plasma] m_flScale: 0x16B4 (Float)
+[DT_Plasma] m_flScaleTime: 0x16B8 (Float)
+[DT_Plasma] m_flStartScale: 0x16B0 (Float)
+[DT_Plasma] m_nFlags: 0x16BC (Int)
+[DT_Plasma] m_nGlowModelIndex: 0x16C8 (Int)
+[DT_Plasma] m_nPlasmaModelIndex: 0x16C0 (Int)
+[DT_Plasma] m_nPlasmaModelIndex2: 0x16C4 (Int)

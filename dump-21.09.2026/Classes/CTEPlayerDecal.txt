@@ -1,0 +1,3 @@
+[DT_TEPlayerDecal] m_nPlayer: 0x20 (Int)
+[DT_TEPlayerDecal] m_vecOrigin: 0x24 (Vector)
+[DT_TEPlayerDecal] m_nEntity: 0x30 (Int)

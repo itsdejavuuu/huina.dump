@@ -1,0 +1,4 @@
+[DT_TEFootprintDecal] m_vecOrigin: 0x20 (Vector)
+[DT_TEFootprintDecal] m_vecDirection: 0x2C (Vector)
+[DT_TEFootprintDecal] m_nEntity: 0x44 (Int)
+[DT_TEFootprintDecal] m_nIndex: 0x48 (Int)

@@ -1,0 +1,531 @@
+interfaces (214 kept, 6 skipped)
+
+[analytics.dll]
+Analytics = 0x7FFF07A0A000 (vtable 0x7FFF079F9480, slots 5)
+
+[client.dll]
+Abs_IMaterialProxy003 = 0x227988614B0 (vtable 0x7FFE6B9EF128, slots 8)
+Add_IMaterialProxy003 = 0x2284181F620 (vtable 0x7FFE6B9EECD8, slots 8)
+Alpha_IMaterialProxy003 = 0x2282981CAE0 (vtable 0x7FFE6B99D428, slots 9)
+AnimateSpecificTexture_IMaterialProxy003 = 0x22794C15A50 (vtable 0x7FFE6B99D698, slots 10)
+AnimatedEntityTexture_IMaterialProxy003 = 0x22794C15B10 (vtable 0x7FFE6B99D548, slots 10)
+AnimatedOffsetTexture_IMaterialProxy003 = 0x22794C15AD0 (vtable 0x7FFE6B99D5B8, slots 10)
+AnimatedTexture_IMaterialProxy003 = 0x22794C15AA0 (vtable 0x7FFE6B99D628, slots 10)
+BreakableSurface_IMaterialProxy003 = 0x22841812F60 (vtable 0x7FFE6B9BBA00, slots 9)
+BurnLevel_IMaterialProxy003 = 0x2283E75A660 (vtable 0x7FFE6B95F8C0, slots 8)
+Camo_IMaterialProxy003 = 0x22798837D00 (vtable 0x7FFE6B9D7BF0, slots 9)
+Clamp_IMaterialProxy003 = 0x22794FF0070 (vtable 0x7FFE6B9EEE30, slots 8)
+ClientLeafSystem002 = 0x7FFE6BD3F9E0 (vtable 0x7FFE6B9D9330, slots 49)
+ClientRenderTargets001 = 0x7FFE6BB80098 (vtable 0x7FFE6B95DDC8, slots 5)
+ConveyorScroll_IMaterialProxy003 = 0x2283E75B500 (vtable 0x7FFE6B9BC330, slots 8)
+CurrentTime_IMaterialProxy003 = 0x228418BC480 (vtable 0x7FFE6B9FE038, slots 8)
+Divide_IMaterialProxy003 = 0x2284181F560 (vtable 0x7FFE6B9EEDD8, slots 8)
+Dummy_IMaterialProxy003 = 0x2283E6B8010 (vtable 0x7FFE6B9DD870, slots 8)
+Empty_IMaterialProxy003 = 0x2284181A660 (vtable 0x7FFE6B9EF178, slots 8)
+EntityOriginAlyx_IMaterialProxy003 = 0x2284181F6A0 (vtable 0x7FFE6B9DDCD0, slots 9)
+EntityOrigin_IMaterialProxy003 = 0x22794C15960 (vtable 0x7FFE6B9DDC60, slots 9)
+EntityRandom_IMaterialProxy003 = 0x228418B5DB0 (vtable 0x7FFE6B9F6AC0, slots 8)
+EntitySpeed_IMaterialProxy003 = 0x22827F99420 (vtable 0x7FFE6B9F6A68, slots 8)
+Ep1IntroVortRefract_IMaterialProxy003 = 0x22798A7AAF0 (vtable 0x7FFE6B9DDD38, slots 9)
+Equals_IMaterialProxy003 = 0x22794FEFFA0 (vtable 0x7FFE6B9EEED0, slots 8)
+Exponential_IMaterialProxy003 = 0x2281537E560 (vtable 0x7FFE6B9EF0D0, slots 8)
+FleshInterior_IMaterialProxy003 = 0x22794C15B70 (vtable 0x7FFE6B962F98, slots 9)
+Frac_IMaterialProxy003 = 0x2281537E640 (vtable 0x7FFE6B9EEF28, slots 8)
+GameClientExports001 = 0x7FFE6BB9A670 (vtable 0x7FFE6B9D80D0, slots 14)
+GameMovement001 = 0x7FFE6BD664A0 (vtable 0x7FFE6BA43B40, slots 111)
+GaussianNoise_IMaterialProxy003 = 0x22798A7AA00 (vtable 0x7FFE6B9EF078, slots 8)
+Health_IMaterialProxy003 = 0x2281537E070 (vtable 0x7FFE6B9F6840, slots 8)
+HeliBlade_IMaterialProxy003 = 0x2283E6B7FE0 (vtable 0x7FFE6BA25D28, slots 9)
+IEffects001 = 0x7FFE6BBA0530 (vtable 0x7FFE6B9DDB78, slots 14)
+IServerAddons001 = 0x7FFE6BC10230 (vtable 0x7FFE6B95D6C0, slots 8)
+Int_IMaterialProxy003 = 0x2281537E600 (vtable 0x7FFE6B9EEF78, slots 8)
+IntroScreen004 = 0x22794C15B40 (vtable 0x7FFE6B999468, slots 6)
+InvulnLevel_IMaterialProxy003 = 0x22794C15BF0 (vtable 0x7FFE6B95F930, slots 8)
+IsNPC_IMaterialProxy003 = 0x2284181F660 (vtable 0x7FFE6B9EE8F0, slots 8)
+LessOrEqual_IMaterialProxy003 = 0x22827D10940 (vtable 0x7FFE6B9EF1C8, slots 8)
+LinearRamp_IMaterialProxy003 = 0x22798A7AA90 (vtable 0x7FFE6B9EEFC8, slots 8)
+MaterialModifyAnimated_IMaterialProxy003 = 0x22798838080 (vtable 0x7FFE6B9C32E8, slots 10)
+MaterialModify_IMaterialProxy003 = 0x22794C159E0 (vtable 0x7FFE6B9C3D38, slots 10)
+MatrixRotate_IMaterialProxy003 = 0x2281537E0B0 (vtable 0x7FFE6B9EF3D0, slots 8)
+MotionBlur_IMaterialProxy003 = 0x2284180DB60 (vtable 0x7FFE6BA06FF0, slots 9)
+Multiply_IMaterialProxy003 = 0x2284181F5A0 (vtable 0x7FFE6B9EED80, slots 8)
+ParticleSphereProxy_IMaterialProxy003 = 0x2281537E000 (vtable 0x7FFE6B9F0E18, slots 8)
+PlayerLogo_IMaterialProxy003 = 0x22827F993D0 (vtable 0x7FFE6B9F6B38, slots 9)
+PlayerPosition_IMaterialProxy003 = 0x228418B5DF0 (vtable 0x7FFE6B9F6A08, slots 8)
+PlayerProximity_IMaterialProxy003 = 0x2281537DFD0 (vtable 0x7FFE6B9F6898, slots 8)
+PlayerSpeed_IMaterialProxy003 = 0x2284181A600 (vtable 0x7FFE6B9F69B0, slots 8)
+PlayerTeamMatch_IMaterialProxy003 = 0x2281537DFA0 (vtable 0x7FFE6B9F68F8, slots 8)
+PlayerView_IMaterialProxy003 = 0x2284181A630 (vtable 0x7FFE6B9F6958, slots 8)
+Pupil_IMaterialProxy003 = 0x228418BD800 (vtable 0x7FFE6B9F6B90, slots 9)
+SelectFirstIfNonZero_IMaterialProxy003 = 0x22798861470 (vtable 0x7FFE6B9EF278, slots 8)
+ShadowModel_IMaterialProxy003 = 0x22794C15990 (vtable 0x7FFE6B9DB100, slots 8)
+Shadow_IMaterialProxy003 = 0x227988615B0 (vtable 0x7FFE6B9DB0C8, slots 15)
+Shield_IMaterialProxy003 = 0x2284181FF90 (vtable 0x7FFE6BA4B478, slots 9)
+Sine_IMaterialProxy003 = 0x22794FEFFE0 (vtable 0x7FFE6B9EEE80, slots 8)
+Subtract_IMaterialProxy003 = 0x2284181F5E0 (vtable 0x7FFE6B9EED28, slots 8)
+TextureScroll_IMaterialProxy003 = 0x22841818D10 (vtable 0x7FFE6B9FDFC0, slots 8)
+TextureTransform_IMaterialProxy003 = 0x22798861420 (vtable 0x7FFE6B9EF370, slots 8)
+ToggleTexture_IMaterialProxy003 = 0x228418BC450 (vtable 0x7FFE6B9FE0B8, slots 8)
+UniformNoise_IMaterialProxy003 = 0x22827D10990 (vtable 0x7FFE6B9EF020, slots 8)
+VCENTERPRINT002 = 0x7FFE6BBA9E88 (vtable 0x7FFE6BA00A00, slots 10)
+VCLIENTTOOLS001 = 0x7FFE6BBB56D0 (vtable 0x7FFE6BA77320, slots 51)
+VClient017 = 0x7FFE6BB9A6D0 (vtable 0x7FFE6B9D8608, slots 88)
+VClientDllSharedAppSystems001 = 0x7FFE6BB9A678 (vtable 0x7FFE6B9D8178, slots 5)
+VClientEntityList003 = 0x7FFE6BCFF7A8 (vtable 0x7FFE6B9D91B0, slots 11)
+VClientPrediction001 = 0x7FFE6BC10850 (vtable 0x7FFE6B95FA88, slots 24)
+VClientTools001 = 0x7FFE6BBB56D0 (vtable 0x7FFE6BA77320, slots 51)
+VParticleSystemQuery001 = 0x7FFE6BBA1518 (vtable 0x7FFE6B9F20B8, slots 31)
+VortEmissive_IMaterialProxy003 = 0x2283C5F19D0 (vtable 0x7FFE6BA3AB08, slots 9)
+WaterLOD_IMaterialProxy003 = 0x2282981C660 (vtable 0x7FFE6BA08170, slots 8)
+WorldDims_IMaterialProxy003 = 0x2284180DB30 (vtable 0x7FFE6BA087B0, slots 8)
+WrapMinMax_IMaterialProxy003 = 0x22827D108D0 (vtable 0x7FFE6B9EF220, slots 8)
+YellowLevel_IMaterialProxy003 = 0x22794C15BC0 (vtable 0x7FFE6B95F9A8, slots 8)
+engine_post_IMaterialProxy003 = 0x227988383B0 (vtable 0x7FFE6BA06CC8, slots 9)
+lampbeam_IMaterialProxy003 = 0x2282981C690 (vtable 0x7FFE6B9EEBB8, slots 9)
+lamphalo_IMaterialProxy003 = 0x228418BD860 (vtable 0x7FFE6B9EEC18, slots 9)
+spy_invis_IMaterialProxy003 = 0x22823B5F5D0 (vtable 0x7FFE6B95FA38, slots 9)
+
+[datacache.dll]
+MDLCache004 = 0x7FFEBF9C00F0 (vtable 0x7FFEBF9A9738, slots 67)
+VDataCache003 = 0x7FFEBF9C0000 (vtable 0x7FFEBF9A7A58, slots 21)
+VStudioDataCache005 = 0x7FFEBF9C00F8 (vtable 0x7FFEBF9A98D0, slots 16)
+
+[engine.dll]
+EngineTraceClient003 = 0x7FFE8D70FB80 (vtable 0x7FFE8D5F66A8, slots 25)
+EngineTraceServer003 = 0x7FFE8D70FB60 (vtable 0x7FFE8D5F65E8, slots 49)
+GAMEEVENTSMANAGER001 = 0x7FFE8D70FCC0 (vtable 0x7FFE8D5F7560, slots 14)
+GAMEEVENTSMANAGER002 = 0x7FFE8D70FBB0 (vtable 0x7FFE8D5F7060, slots 15)
+GameServerData001 = 0x7FFE8D70D9F0 (vtable 0x7FFE8D5EDC88, slots 7)
+IEngineSoundClient003 = 0x7FFE8D6B8000 (vtable 0x7FFE8D5B2698, slots 26)
+IEngineSoundServer003 = 0x7FFE8D6B8008 (vtable 0x7FFE8D5B2938, slots 26)
+ISERVERPLUGINHELPERS001 = 0x7FFE8D70D910 (vtable 0x7FFE8D5ED398, slots 20)
+SpatialPartition001 = 0x7FFE8DFC2410 (vtable 0x7FFE8D605378, slots 38)
+StaticPropMgrClient004 = 0x7FFE8D711738 (vtable 0x7FFE8D605A28, slots 25)
+StaticPropMgrServer002 = 0x7FFE8D711740 (vtable 0x7FFE8D605AA0, slots 10)
+VCLIENTENGINETOOLS001 = 0x7FFE8D711DB0 (vtable 0x7FFE8D60C970, slots 17)
+VCvarQuery001 = 0x7FFE8D70EF38 (vtable 0x7FFE8D5F3B30, slots 12)
+VDebugOverlay003 = 0x7FFE8D6F38A0 (vtable 0x7FFE8D5E07F0, slots 31)
+VENGINETOOL003 = 0x7FFE8D711AF0 (vtable 0x7FFE8D60C3B0, slots 87)
+VENGINETOOLFRAMEWORK003 = 0x7FFE8D711AF0 (vtable 0x7FFE8D60C3B0, slots 87)
+VENGINE_GAMEUIFUNCS_VERSION005 = 0x7FFE8D711840 (vtable 0x7FFE8D606D10, slots 9)
+VENGINE_HLDS_API_VERSION002 = 0x7FFE8D7118C0 (vtable 0x7FFE8D606C70, slots 17)
+VENGINE_LAUNCHER_API_VERSION004 = 0x7FFE8D711860 (vtable 0x7FFE8D606BE0, slots 35)
+VEngineClient013 = 0x7FFE8D6B93C0 (vtable 0x7FFE8D5BCFC8, slots 128)
+VEngineClient015 = 0x7FFE8D6B93C0 (vtable 0x7FFE8D5BCFC8, slots 128)
+VEngineClient015 = 0x7FFE8D6B93C0 (vtable 0x7FFE8D5BCFC8, slots 128)
+VEngineClientStringTable001 = 0x7FFE8DFC1760 (vtable 0x7FFE8D603370, slots 30)
+VEngineEffects001 = 0x7FFE8D6F50D0 (vtable 0x7FFE8D5E6F78, slots 12)
+VEngineModel016 = 0x7FFE8D6F4130 (vtable 0x7FFE8D5E2C30, slots 31)
+VEngineRandom001 = 0x7FFE8D711688 (vtable 0x7FFE8D6042B8, slots 6)
+VEngineRenderView014 = 0x7FFE8D6F5358 (vtable 0x7FFE8D5E7B40, slots 56)
+VEngineServer021 = 0x7FFE8D70DA80 (vtable 0x7FFE8D5EF748, slots 128)
+VEngineServerStringTable001 = 0x7FFE8DFC17D8 (vtable 0x7FFE8D603370, slots 30)
+VEngineShadowMgr002 = 0x7FFE8DA2CD60 (vtable 0x7FFE8D5E71B0, slots 47)
+VEngineVGui001 = 0x7FFE8D712190 (vtable 0x7FFE8D611EF0, slots 39)
+VModelInfoClient006 = 0x7FFE8D7114C0 (vtable 0x7FFE8D5FF6D8, slots 71)
+VModelInfoServer003 = 0x7FFE8D711450 (vtable 0x7FFE8D5FF478, slots 71)
+VModelInfoServer004 = 0x7FFE8D711450 (vtable 0x7FFE8D5FF478, slots 71)
+VPhysicsDebugOverlay001 = 0x7FFE8D6F38A8 (vtable 0x7FFE8D5E0890, slots 11)
+VProfExport001 = 0x7FFE8D711A98 (vtable 0x7FFE8D609878, slots 10)
+VSERVERENGINETOOLS001 = 0x7FFE8D711DB8 (vtable 0x7FFE8D60CA08, slots 13)
+VTOOLFRAMEWORKVERSION002 = 0x7FFE8D711D40 (vtable 0x7FFE8D60C7A8, slots 74)
+VoiceServer002 = 0x7FFE8D711A88 (vtable 0x7FFE8D609188, slots 7)
+XboxSystemInterface001 = 0x7FFE8D711AD8 (vtable 0x7FFE8D609E38, slots 35)
+
+[filesystem_stdio.dll]
+QueuedLoaderVersion004 = 0x7FFED1F8E800 (vtable 0x7FFED1F5F010, slots 28)
+VBaseFileSystem011 = 0x7FFED1F8DBB8 (vtable 0x7FFED1F5EB18, slots 64)
+VFileSystem022 = 0x7FFED1F8DBB0 (vtable 0x7FFED1F5E670, slots 128)
+
+[game_shader_generic_garrysmod.dll]
+ShaderDLL004 = 0x22794FFB030 (vtable 0x7FFE913DDD08, slots 11)
+
+[gameui.dll]
+GameConsole004 = 0x7FFE6A6950D8 (vtable 0x7FFE6A636AF0, slots 9)
+GameUI011 = 0x7FFE6A695100 (vtable 0x7FFE6A636BB8, slots 39)
+RunGameEngine005 = 0x7FFE6A6952B0 (vtable 0x7FFE6A638430, slots 17)
+VGuiModuleLoader003 = 0x7FFE6A6952B8 (vtable 0x7FFE6A638C20, slots 9)
+
+[gmod_audio.dll]
+IGModAudio001 = 0x22829B8C9C0 (vtable 0x7FFEF4865D48, slots 13)
+
+[inputsystem.dll]
+InputStackSystemVersion001 = 0x7FFEF7A1C020 (vtable 0x7FFEF7A0A5B8, slots 19)
+InputSystemVersion001 = 0x7FFEF7A22580 (vtable 0x7FFEF7A0A968, slots 79)
+
+[lua_shared.dll]
+LUACONVARS001 = 0x7FFE8C1BA000 (vtable 0x7FFE8C194558, slots 10)
+LUASHARED003 = 0x7FFE8C1BAC10 (vtable 0x7FFE8C1973B8, slots 21)
+
+[materialsystem.dll]
+COLORCORRECTION_VERSION_1 = 0x7FFE63A23010 (vtable 0x7FFE639F38C8, slots 31)
+MaterialSystemHardwareConfig012 = 0x7FFEA067B010 (vtable 0x7FFEA06588C0, slots 80)
+ShaderDLL004 = 0x22794FB2D20 (vtable 0x7FFE639FF4D8, slots 13)
+ShaderSystem002 = 0x7FFE63A23628 (vtable 0x7FFE639FE488, slots 9)
+VEngineCvar007 = 0x7FFEF7C1A010 (vtable 0x7FFEF7C02AB8, slots 45)
+VMaterialSystem080 = 0x7FFE63A2E9F0 (vtable 0x7FFE639F68A8, slots 128)
+VMaterialSystemStub001 = 0x7FFE63A23548 (vtable 0x7FFE639FD080, slots 128)
+
+[menusystem.dll]
+MenuSystem002 = 0x7FFE6B279678 (vtable 0x7FFE6B2068A0, slots 15)
+
+[resources.dll]
+IResources001 = 0x7FFE8C0D7000 (vtable 0x7FFE8C0AD840, slots 15)
+
+[scenefilecache.dll]
+SceneFileCache002 = 0x7FFF1F61F000 (vtable 0x7FFF1F614338, slots 17)
+
+[server.dll]
+BotManager001 = 0x7FFE5E5162E8 (vtable 0x7FFE5E1C20B8, slots 6)
+GameMovement001 = 0x7FFE5E6F7890 (vtable 0x7FFE5E2C8020, slots 59)
+HLTVDirector001 = 0x7FFE5E699578 (vtable 0x7FFE5E187A90, slots 11)
+IEffects001 = 0x7FFE5E4DE958 (vtable 0x7FFE5E154910, slots 128)
+PlayerInfoManager002 = 0x7FFE5E5162E0 (vtable 0x7FFE5E1C20A0, slots 9)
+ServerGameClients003 = 0x7FFE5E4F7B20 (vtable 0x7FFE5E17BE70, slots 72)
+ServerGameClients004 = 0x7FFE5E4F7B20 (vtable 0x7FFE5E17BE70, slots 72)
+ServerGameDLL008 = 0x7FFE5E4F7BD8 (vtable 0x7FFE5E17BF28, slots 49)
+ServerGameDLL009 = 0x7FFE5E4F7BD8 (vtable 0x7FFE5E17BF28, slots 49)
+ServerGameEnts001 = 0x7FFE5E4F7BF0 (vtable 0x7FFE5E17CB58, slots 9)
+VSERVERCHOREOTOOLS001 = 0x7FFE5E5A2430 (vtable 0x7FFE5E399C30, slots 7)
+VSERVERTOOLS001 = 0x7FFE5E5A2428 (vtable 0x7FFE5E399B00, slots 35)
+VSERVERTOOLS002 = 0x7FFE5E5A2428 (vtable 0x7FFE5E399B00, slots 35)
+VServerDllSharedAppSystems001 = 0x7FFE5E4F7BF8 (vtable 0x7FFE5E17CD40, slots 5)
+
+[serverbrowser.dll]
+ServerBrowser004 = 0x7FFE6996F048 (vtable 0x7FFE69923B60, slots 21)
+VGuiModuleServerBrowser001 = 0x7FFE6996F050 (vtable 0x7FFE69923BA8, slots 12)
+
+[shaderapidx9.dll]
+DebugTextureInfo001 = 0x7FFEA0682E40 (vtable 0x7FFEA065BD98, slots 8)
+MaterialSystemHardwareConfig012 = 0x7FFEA067B010 (vtable 0x7FFEA06588C0, slots 80)
+ShaderApi030 = 0x7FFEA0682E38 (vtable 0x7FFEA065B488, slots 128)
+ShaderDevice001 = 0x7FFEA0682AC0 (vtable 0x7FFEA065B338, slots 128)
+ShaderDeviceMgr001 = 0x7FFEA0686F70 (vtable 0x7FFEA065CF60, slots 65)
+ShaderShadow010 = 0x7FFEA067BE20 (vtable 0x7FFEA065E220, slots 59)
+VBAllocTracker001 = 0x7FFEA067B000 (vtable 0x7FFEA0658768, slots 5)
+
+[soundemittersystem.dll]
+VSoundEmitter002 = 0x7FFEAE260010 (vtable 0x7FFEAE24E458, slots 62)
+
+[stdshader_dbg.dll]
+ShaderDLL004 = 0x22794FB9630 (vtable 0x7FFEF7989B40, slots 11)
+
+[stdshader_dx6.dll]
+ShaderDLL004 = 0x22794FBE8B0 (vtable 0x7FFE9E8CFD58, slots 11)
+
+[stdshader_dx7.dll]
+ShaderDLL004 = 0x22794FC54F0 (vtable 0x7FFE9308C9E8, slots 11)
+
+[stdshader_dx8.dll]
+ShaderDLL004 = 0x22794FCAA20 (vtable 0x7FFE8FDC1C78, slots 11)
+
+[stdshader_dx9.dll]
+ShaderDLL004 = 0x22794FD33A0 (vtable 0x7FFE8C6DE040, slots 11)
+
+[steamclient64.dll]
+CLIENTENGINE_INTERFACE_VERSION005 = 0x7FFE7090A820 (vtable 0x7FFE70458130, slots 88)
+SteamClient006 = 0x7FFE7081C310 (vtable 0x7FFE70403EB0, slots 23)
+SteamClient007 = 0x7FFE7081C318 (vtable 0x7FFE70403FC0, slots 24)
+SteamClient008 = 0x7FFE7081C320 (vtable 0x7FFE704040B8, slots 23)
+SteamClient009 = 0x7FFE7081C328 (vtable 0x7FFE70404178, slots 24)
+SteamClient010 = 0x7FFE7081C330 (vtable 0x7FFE70404250, slots 26)
+SteamClient011 = 0x7FFE7081C338 (vtable 0x7FFE70404330, slots 27)
+SteamClient012 = 0x7FFE7081C340 (vtable 0x7FFE70404420, slots 29)
+SteamClient013 = 0x7FFE7081C348 (vtable 0x7FFE70404518, slots 32)
+SteamClient014 = 0x7FFE7081C350 (vtable 0x7FFE70404638, slots 31)
+SteamClient015 = 0x7FFE7081C358 (vtable 0x7FFE70404740, slots 32)
+SteamClient016 = 0x7FFE7081C360 (vtable 0x7FFE70404858, slots 36)
+SteamClient017 = 0x7FFE7081C368 (vtable 0x7FFE70404990, slots 39)
+SteamClient018 = 0x7FFE7081C370 (vtable 0x7FFE70404AD0, slots 42)
+SteamClient019 = 0x7FFE7081C378 (vtable 0x7FFE70404C40, slots 43)
+SteamClient020 = 0x7FFE7081C380 (vtable 0x7FFE70404DB0, slots 44)
+SteamClient021 = 0x7FFE7081C388 (vtable 0x7FFE70404F18, slots 42)
+SteamClient022 = 0x7FFE7081C390 (vtable 0x7FFE70403BA8, slots 41)
+SteamClient023 = 0x7FFE7081C398 (vtable 0x7FFE70403CF8, slots 40)
+p2pvoice002 = 0x2279ADA0140 (vtable 0x7FFE70297A48, slots 60)
+p2pvoicesingleton002 = 0x7FFE707F60F0 (vtable 0x7FFE70297408, slots 19)
+
+[studiorender.dll]
+VStudioRender025 = 0x7FFE8D1D3080 (vtable 0x7FFE8CA765D8, slots 59)
+
+[unicode.dll]
+VENGINEUNICODE001 = 0x7FFF26F4B000 (vtable 0x7FFF26F41358, slots 7)
+
+[vgui2.dll]
+VGUI_Input005 = 0x7FFEAF9152C0 (vtable 0x7FFEAF8F3720, slots 90)
+VGUI_InputInternal001 = 0x7FFEAF9152C0 (vtable 0x7FFEAF8F3720, slots 90)
+VGUI_Panel009 = 0x7FFEAF910640 (vtable 0x7FFEAF8F6D40, slots 68)
+VGUI_Scheme010 = 0x7FFEAF9178A0 (vtable 0x7FFEAF8F5BB8, slots 18)
+VGUI_Surface030 = 0x7FFEAF9179B0 (vtable 0x7FFEAF8F5F80, slots 128)
+VGUI_System010 = 0x7FFEAF910280 (vtable 0x7FFEAF8F6750, slots 37)
+VGUI_ivgui008 = 0x7FFEAF9104D0 (vtable 0x7FFEAF8F6938, slots 33)
+VguiLocalize004 = 0x7FFEAF90F640 (vtable 0x7FFEAF8F4558, slots 29)
+
+[vguimatsurface.dll]
+VGUI_Surface030 = 0x7FFEADCB5850 (vtable 0x7FFEADC68448, slots 128)
+
+[vphysics.dll]
+VPhysicsCollision007 = 0x7FFEAE64F0D8 (vtable 0x7FFEAE614D88, slots 61)
+VPhysicsSurfaceProps001 = 0x7FFEAE65C390 (vtable 0x7FFEAE616908, slots 18)
+
+[vstdlib.dll]
+EventSystem001 = 0x7FFEF7C1A1E0 (vtable 0x7FFEF7C031A0, slots 19)
+VEngineCvar007 = 0x7FFEF7C1A010 (vtable 0x7FFEF7C02AB8, slots 45)
+VProcessUtils001 = 0x7FFEF7C1C2D0 (vtable 0x7FFEF7C03E10, slots 14)
+
+[vstdlib_s64.dll]
+VEngineCvar002 = 0x7FFED1A9E070 (vtable 0x7FFED1A7FE68, slots 15)
+
+client classes (252)
+CTEWorldDecal (id 197) -> DT_TEWorldDecal
+CTESpriteSpray (id 196) -> DT_TESpriteSpray
+CTESprite (id 195) -> DT_TESprite
+CTESparks (id 194) -> DT_TESparks
+CTESmoke (id 193) -> DT_TESmoke
+CTEShowLine (id 191) -> DT_TEShowLine
+CTEProjectedDecal (id 189) -> DT_TEProjectedDecal
+CTEPlayerDecal (id 188) -> DT_TEPlayerDecal
+CTEPhysicsProp (id 186) -> DT_TEPhysicsProp
+CTEParticleSystem (id 185) -> DT_TEParticleSystem
+CTEMuzzleFlash (id 184) -> DT_TEMuzzleFlash
+CTELargeFunnel (id 182) -> DT_TELargeFunnel
+CTEKillPlayerAttachments (id 181) -> DT_TEKillPlayerAttachments
+CTEGlowSprite (id 179) -> DT_TEGlowSprite
+CTEShatterSurface (id 190) -> DT_TEShatterSurface
+CTEFootprintDecal (id 177) -> DT_TEFootprintDecal
+CTEFizz (id 176) -> DT_TEFizz
+CTEExplosion (id 175) -> DT_TEExplosion
+CTEEnergySplash (id 174) -> DT_TEEnergySplash
+CTEEffectDispatch (id 173) -> DT_TEEffectDispatch
+CTEDynamicLight (id 172) -> DT_TEDynamicLight
+CTEDecal (id 170) -> DT_TEDecal
+CTEClientProjectile (id 168) -> DT_TEClientProjectile
+CTEBubbleTrail (id 167) -> DT_TEBubbleTrail
+CTEBubbles (id 166) -> DT_TEBubbles
+CTEBSPDecal (id 165) -> DT_TEBSPDecal
+CTEBreakModel (id 164) -> DT_TEBreakModel
+CTEBloodStream (id 163) -> DT_TEBloodStream
+CTEBloodSprite (id 162) -> DT_TEBloodSprite
+CTEBeamSpline (id 161) -> DT_TEBeamSpline
+CTEBeamRingPoint (id 160) -> DT_TEBeamRingPoint
+CTEBeamRing (id 159) -> DT_TEBeamRing
+CTEBeamPoints (id 158) -> DT_TEBeamPoints
+CTEBeamLaser (id 157) -> DT_TEBeamLaser
+CTEBeamFollow (id 156) -> DT_TEBeamFollow
+CTEBeamEnts (id 155) -> DT_TEBeamEnts
+CTEBeamEntPoint (id 154) -> DT_TEBeamEntPoint
+CTEBaseBeam (id 153) -> DT_BaseBeam
+CTEArmorRicochet (id 152) -> DT_TEArmorRicochet
+CTEMetalSparks (id 183) -> DT_TEMetalSparks
+CSteamJet (id 148) -> DT_SteamJet
+CSmokeStack (id 142) -> DT_SmokeStack
+DustTrail (id 242) -> DT_DustTrail
+CFireTrail (id 54) -> DT_FireTrail
+SporeTrail (id 249) -> DT_SporeTrail
+SporeExplosion (id 248) -> DT_SporeExplosion
+RocketTrail (id 246) -> DT_RocketTrail
+SmokeTrail (id 247) -> DT_SmokeTrail
+CPropVehicleDriveable (id 127) -> DT_PropVehicleDriveable
+ParticleSmokeGrenade (id 245) -> DT_ParticleSmokeGrenade
+MovieExplosion (id 243) -> DT_MovieExplosion
+CTEGaussExplosion (id 178) -> DT_TEGaussExplosion
+CEnvQuadraticBeam (id 47) -> DT_QuadraticBeam
+CEmbers (id 38) -> DT_Embers
+CEnvWind (id 52) -> DT_EnvWind
+CPrecipitation (id 115) -> DT_Precipitation
+CPrecipitationBlocker (id 116) -> DT_PrecipitationBlocker
+CBaseTempEntity (id 22) -> DT_BaseTempEntity
+CPropEnergyBall (id 122) -> DT_PropEnergyBall
+CNPC_RocketTurret (id 98) -> DT_NPC_RocketTurret
+CNPC_Portal_FloorTurret (id 96) -> DT_NPC_Portal_FloorTurret
+CWeaponStunStick (id 238) -> DT_WeaponStunStick
+CWeaponSMG1 (id 236) -> DT_WeaponSMG1
+CWeapon_SLAM (id 206) -> DT_Weapon_SLAM
+CWeaponShotgun (id 234) -> DT_WeaponShotgun
+CWeaponRPG (id 231) -> DT_WeaponRPG
+CLaserDot (id 85) -> DT_LaserDot
+CWeaponPistol (id 230) -> DT_WeaponPistol
+CWeaponPhysCannon (id 228) -> DT_WeaponPhysCannon
+CBaseHL2MPCombatWeapon (id 16) -> DT_BaseHL2MPCombatWeapon
+CBaseHL2MPBludgeonWeapon (id 15) -> DT_BaseHL2MPBludgeonWeapon
+CHL2MPMachineGun (id 77) -> DT_HL2MPMachineGun
+CWeaponHL2MPBase (id 225) -> DT_WeaponHL2MPBase
+CWeaponFrag (id 220) -> DT_WeaponFrag
+CWeaponCrowbar (id 215) -> DT_WeaponCrowbar
+CWeaponCrossbow (id 213) -> DT_WeaponCrossbow
+CWeaponAR2 (id 209) -> DT_WeaponAR2
+CWeapon357 (id 204) -> DT_Weapon357
+CHL2MPGameRulesProxy (id 76) -> DT_HL2MPGameRulesProxy
+CTEHL2MPFireBullets (id 180) -> DT_TEHL2MPFireBullets
+CTEPlayerAnimEvent (id 187) -> DT_TEPlayerAnimEvent
+CHL2MPRagdoll (id 78) -> DT_HL2MPRagdoll
+CHL2MP_Player (id 75) -> DT_HL2MP_Player
+CWeaponBugBait (id 210) -> DT_WeaponBugBait
+CCrossbowBolt (id 35) -> DT_CrossbowBolt
+CWeaponOldManHarpoon (id 227) -> DT_WeaponOldManHarpoon
+CWeaponCitizenSuitcase (id 212) -> DT_WeaponCitizenSuitcase
+CWeaponCitizenPackage (id 211) -> DT_WeaponCitizenPackage
+CWeaponAlyxGun (id 207) -> DT_WeaponAlyxGun
+CWeaponCubemap (id 217) -> DT_WeaponCubemap
+CWeaponAnnabelle (id 208) -> DT_WeaponAnnabelle
+CWeaponCycler (id 218) -> DT_WeaponCycler
+CVortigauntEffectDispel (id 201) -> DT_VortigauntEffectDispel
+CVortigauntChargeToken (id 200) -> DT_VortigauntChargeToken
+CNPC_Vortigaunt (id 101) -> DT_NPC_Vortigaunt
+CPropVehiclePrisonerPod (id 128) -> DT_PropVehiclePrisonerPod
+CPropCrane (id 120) -> DT_PropCrane
+CPropAirboat (id 118) -> DT_PropAirboat
+CFlare (id 56) -> DT_Flare
+CTEConcussiveExplosion (id 169) -> DT_TEConcussiveExplosion
+CNPC_Strider (id 100) -> DT_NPC_Strider
+CScriptIntro (id 136) -> DT_ScriptIntro
+CRotorWashEmitter (id 133) -> DT_RotorWashEmitter
+CPropCombineBall (id 119) -> DT_PropCombineBall
+CPlasmaBeamNode (id 0) -> DT_PlasmaBeamNode
+CNPC_RollerMine (id 99) -> DT_RollerMine
+CNPC_Manhack (id 95) -> DT_NPC_Manhack
+CNPC_CombineGunship (id 94) -> DT_CombineGunship
+CNPC_AntlionGuard (id 91) -> DT_NPC_AntlionGuard
+CInfoTeleporterCountdown (id 84) -> DT_InfoTeleporterCountdown
+CMortarShell (id 90) -> DT_MortarShell
+CEnvStarfield (id 50) -> DT_EnvStarfield
+CEnvHeadcrabCanister (id 44) -> DT_EnvHeadcrabCanister
+CAlyxEmpEffect (id 2) -> DT_AlyxEmpEffect
+CCorpse (id 0) -> DT_Corpse
+CCitadelEnergyCore (id 32) -> DT_CitadelEnergyCore
+CHL2_Player (id 74) -> DT_HL2_Player
+CBaseHLBludgeonWeapon (id 17) -> DT_BaseHLBludgeonWeapon
+CHLSelectFireMachineGun (id 80) -> DT_HLSelectFireMachineGun
+CHLMachineGun (id 79) -> DT_HLMachineGun
+CBaseHelicopter (id 11) -> DT_BaseHelicopter
+CNPC_Barney (id 93) -> DT_NPC_Barney
+CNPC_Barnacle (id 92) -> DT_Barnacle
+AR2Explosion (id 0) -> DT_AR2Explosion
+CTEAntlionDust (id 151) -> DT_TEAntlionDust
+CBaseHLCombatWeapon (id 18) -> DT_BaseHLCombatWeapon
+CWeaponShotgun_HL1 (id 235) -> DT_WeaponShotgun_HL1
+CWeaponSatchel (id 233) -> DT_WeaponSatchel
+CWeaponRPG_HL1 (id 232) -> DT_WeaponRPG_HL1
+CLaserDot_HL1 (id 86) -> DT_LaserDot_HL1
+CWeaponMP5 (id 226) -> DT_WeaponMP5
+CWeaponHgun (id 224) -> DT_WeaponHgun
+CWeaponHandGrenade (id 223) -> DT_WeaponHandGrenade
+CWeaponGlock (id 222) -> DT_WeaponGlock
+CWeaponGauss (id 221) -> DT_WeaponGauss
+CWeaponEgon (id 219) -> DT_WeaponEgon
+CWeaponCrossbow_HL1 (id 214) -> DT_WeaponCrossbow_HL1
+CWeapon357_HL1 (id 205) -> DT_Weapon357_HL1
+CBaseHL1MPCombatWeapon (id 14) -> DT_BaseHL1MPCombatWeapon
+CWeaponTripMine (id 240) -> DT_WeaponTripMine
+CWeaponSnark (id 237) -> DT_WeaponSnark
+CWeaponCrowbar_HL1 (id 216) -> DT_WeaponCrowbar_HL1
+CBaseHelicopter_HL1 (id 12) -> DT_BaseHelicopter_HL1
+CRpgRocket (id 134) -> DT_RpgRocket
+CBaseHL1CombatWeapon (id 13) -> DT_BaseHL1CombatWeapon
+CPredictedViewModel (id 117) -> DT_PredictedViewModel
+CTriggerPlayerMovement (id 198) -> DT_TriggerPlayerMovement
+CBaseTrigger (id 24) -> DT_BaseTrigger
+CSpatialEntity (id 143) -> DT_SpatialEntity
+CPointWorldText (id 113) -> DT_PointWorldText
+CEnvAmbientLight (id 42) -> DT_EnvAmbientLight
+CBeamSpotlight (id 27) -> DT_BeamSpotlight
+CBaseToggle (id 23) -> DT_BaseToggle
+CSpriteTrail (id 147) -> DT_SpriteTrail
+CSpriteOriented (id 146) -> DT_SpriteOriented
+CSprite (id 145) -> DT_Sprite
+CRagdollPropAttached (id 131) -> DT_Ragdoll_Attached
+CRagdollProp (id 130) -> DT_Ragdoll
+CPoseController (id 114) -> DT_PoseController
+CGameRulesProxy (id 71) -> DT_GameRulesProxy
+CInfoLadderDismount (id 81) -> DT_InfoLadderDismount
+CFuncLadder (id 64) -> DT_FuncLadder
+CEnvDetailController (id 43) -> DT_DetailController
+CWorld (id 241) -> DT_World
+CWaterLODControl (id 203) -> DT_WaterLODControl
+CWaterBullet (id 202) -> DT_WaterBullet
+CVGuiScreen (id 199) -> DT_VGuiScreen
+CPropJeep (id 123) -> DT_PropJeep
+CPropVehicleChoreoGeneric (id 126) -> DT_PropVehicleChoreoGeneric
+CTesla (id 192) -> DT_Tesla
+CTeam (id 150) -> DT_Team
+CSun (id 149) -> DT_Sun
+CParticlePerformanceMonitor (id 102) -> DT_ParticlePerformanceMonitor
+CSpotlightEnd (id 144) -> DT_SpotlightEnd
+CSlideshowDisplay (id 141) -> DT_SlideshowDisplay
+CShadowControl (id 140) -> DT_ShadowControl
+CSceneEntity (id 135) -> DT_SceneEntity
+CRopeKeyframe (id 132) -> DT_RopeKeyframe
+CRagdollManager (id 129) -> DT_RagdollManager
+CPhysicsPropMultiplayer (id 108) -> DT_PhysicsPropMultiplayer
+CPhysBoxMultiplayer (id 106) -> DT_PhysBoxMultiplayer
+CPropDoorRotating (id 121) -> DT_PropDoorRotating
+CBasePropDoor (id 21) -> DT_BasePropDoor
+CDynamicProp (id 37) -> DT_DynamicProp
+CPointCamera (id 112) -> DT_PointCamera
+CPlayerResource (id 111) -> DT_PlayerResource
+CPlasma (id 110) -> DT_Plasma
+CPhysMagnet (id 109) -> DT_PhysMagnet
+CPhysicsProp (id 107) -> DT_PhysicsProp
+CPhysBox (id 105) -> DT_PhysBox
+CParticleSystem (id 103) -> DT_ParticleSystem
+CMaterialModifyControl (id 89) -> DT_MaterialModifyControl
+CLightGlow (id 87) -> DT_LightGlow
+CInfoOverlayAccessor (id 83) -> DT_InfoOverlayAccessor
+CFuncTrackTrain (id 70) -> DT_FuncTrackTrain
+CFuncSmokeVolume (id 69) -> DT_FuncSmokeVolume
+CFuncRotating (id 68) -> DT_FuncRotating
+CFuncReflectiveGlass (id 67) -> DT_FuncReflectiveGlass
+CFuncOccluder (id 66) -> DT_FuncOccluder
+CFuncMonitor (id 65) -> DT_FuncMonitor
+CFunc_LOD (id 61) -> DT_Func_LOD
+CTEDust (id 171) -> DT_TEDust
+CFunc_Dust (id 60) -> DT_Func_Dust
+CFuncConveyor (id 63) -> DT_FuncConveyor
+CBreakableSurface (id 31) -> DT_BreakableSurface
+CFuncAreaPortalWindow (id 62) -> DT_FuncAreaPortalWindow
+CFish (id 55) -> DT_CFish
+CEntityFlame (id 40) -> DT_EntityFlame
+CFireSmoke (id 53) -> DT_FireSmoke
+CEnvTonemapController (id 51) -> DT_EnvTonemapController
+CEnvScreenEffect (id 48) -> DT_EnvScreenEffect
+CEnvScreenOverlay (id 49) -> DT_EnvScreenOverlay
+CEnvProjectedTexture (id 46) -> DT_EnvProjectedTexture
+CEnvParticleScript (id 45) -> DT_EnvParticleScript
+CFogController (id 59) -> DT_FogController
+CEntityParticleTrail (id 41) -> DT_EntityParticleTrail
+CEntityDissolve (id 39) -> DT_EntityDissolve
+CDynamicLight (id 36) -> DT_DynamicLight
+CColorCorrectionVolume (id 34) -> DT_ColorCorrectionVolume
+CColorCorrection (id 33) -> DT_ColorCorrection
+CBreakableProp (id 30) -> DT_BreakableProp
+CBasePlayer (id 20) -> DT_BasePlayer
+CBaseFlex (id 9) -> DT_BaseFlex
+CBaseEntity (id 8) -> DT_BaseEntity
+CBaseDoor (id 7) -> DT_BaseDoor
+CBaseCombatCharacter (id 5) -> DT_BaseCombatCharacter
+CBaseAnimatingOverlay (id 4) -> DT_BaseAnimatingOverlay
+CBoneFollower (id 28) -> DT_BoneFollower
+CBaseAnimating (id 3) -> DT_BaseAnimating
+CInfoLightingRelative (id 82) -> DT_InfoLightingRelative
+CAI_BaseNPC (id 1) -> DT_AI_BaseNPC
+CBeam (id 26) -> DT_Beam
+CBaseViewModel (id 25) -> DT_BaseViewModel
+CBaseParticleEntity (id 19) -> DT_BaseParticleEntity
+CBaseGrenade (id 10) -> DT_BaseGrenade
+CBaseCombatWeapon (id 6) -> DT_BaseCombatWeapon
+CWeaponPhysGun (id 229) -> DT_WeaponPhysGun
+CPhysBeam (id 104) -> DT_PhysBeam
+CLuaNextBot (id 88) -> DT_LuaNextBot
+CFlexManipulate (id 58) -> DT_FlexManipulate
+CBoneManipulate (id 29) -> DT_BoneManipulate
+CWeaponSWEP (id 239) -> DT_WeaponSWEP
+CSENT_point (id 139) -> DT_SENT_point
+CSENT_anim (id 138) -> DT_SENT_anim
+CSENT_AI (id 137) -> DT_SENT_AI
+CGMODGameRulesProxy (id 73) -> DT_GMODGameRulesProxy
+NextBotCombatCharacter (id 244) -> DT_NextBot
+CGMOD_Player (id 72) -> DT_GMOD_Player
+CFleshEffectTarget (id 57) -> DT_FleshEffectTarget
+CPropJeepEpisodic (id 124) -> DT_CPropJeepEpisodic
+CPropScalable (id 125) -> DT_PropScalable
+CNPC_Puppet (id 97) -> DT_NPC_Puppet

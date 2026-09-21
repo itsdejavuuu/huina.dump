@@ -1,0 +1,3 @@
+[DT_NPC_Portal_FloorTurret] m_bLaserOn: 0x292D (Int)
+[DT_NPC_Portal_FloorTurret] m_bOutOfAmmo: 0x292C (Int)
+[DT_NPC_Portal_FloorTurret] m_sLaserHaloSprite: 0x2930 (Int)

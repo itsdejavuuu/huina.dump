@@ -1,0 +1,1 @@
+[DT_PropJeep] m_bHeadlightIsOn: 0x1D48 (Int)

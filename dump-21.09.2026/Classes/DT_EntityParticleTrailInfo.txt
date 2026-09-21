@@ -1,0 +1,3 @@
+[DT_EntityParticleTrailInfo] m_flEndSize: 0x1800 (Float)
+[DT_EntityParticleTrailInfo] m_flLifetime: 0x17F8 (Float)
+[DT_EntityParticleTrailInfo] m_flStartSize: 0x17FC (Float)

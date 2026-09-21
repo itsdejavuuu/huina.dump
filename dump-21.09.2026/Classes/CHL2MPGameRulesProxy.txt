@@ -1,0 +1,2 @@
+[DT_HL2MPGameRulesProxy] hl2mp_gamerules_data: 0x0 (DataTable)
+[DT_HL2MPRules] m_bTeamPlayEnabled: 0x38 (Int)

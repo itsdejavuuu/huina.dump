@@ -1,0 +1,1 @@
+[DT_CombineGunship] m_vecHitPos: 0x2988 (Vector)

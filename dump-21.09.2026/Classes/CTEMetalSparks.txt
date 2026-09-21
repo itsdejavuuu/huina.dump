@@ -1,0 +1,2 @@
+[DT_TEMetalSparks] m_vecPos: 0x20 (Vector)
+[DT_TEMetalSparks] m_vecDir: 0x2C (Vector)

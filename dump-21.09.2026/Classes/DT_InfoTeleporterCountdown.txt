@@ -1,0 +1,4 @@
+[DT_InfoTeleporterCountdown] m_bCountdownStarted: 0x16B0 (Int)
+[DT_InfoTeleporterCountdown] m_bDisabled: 0x16B1 (Int)
+[DT_InfoTeleporterCountdown] m_flStartTime: 0x16B4 (Float)
+[DT_InfoTeleporterCountdown] m_flTimeRemaining: 0x16B8 (Float)

@@ -1,0 +1,1 @@
+[DT_TEKillPlayerAttachments] m_nPlayer: 0x20 (Int)

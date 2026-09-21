@@ -1,0 +1,1 @@
+[DT_TELargeFunnel] m_nReversed: 0x30 (Int)

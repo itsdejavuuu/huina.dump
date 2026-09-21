@@ -1,0 +1,4 @@
+[DT_TEConcussiveExplosion] m_flScale: 0x3C (Float)
+[DT_TEConcussiveExplosion] m_nMagnitude: 0x44 (Int)
+[DT_TEConcussiveExplosion] m_nRadius: 0x40 (Int)
+[DT_TEConcussiveExplosion] m_vecNormal: 0x30 (Vector)

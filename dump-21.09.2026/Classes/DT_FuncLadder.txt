@@ -1,0 +1,4 @@
+[DT_FuncLadder] m_bFakeLadder: 0x16F9 (Int)
+[DT_FuncLadder] m_vecLadderDir: 0x16B0 (Vector)
+[DT_FuncLadder] m_vecPlayerMountPositionBottom: 0x16EC (Vector)
+[DT_FuncLadder] m_vecPlayerMountPositionTop: 0x16E0 (Vector)

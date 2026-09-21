@@ -1,0 +1,2 @@
+[DT_BaseTrigger] m_bClientSidePredicted: 0x16E0 (Int)
+[DT_BaseTrigger] m_spawnflags: 0x92C (Int)

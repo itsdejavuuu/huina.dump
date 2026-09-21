@@ -1,0 +1,2 @@
+[DT_Tesla] m_SoundName: 0x16E0 (String)
+[DT_Tesla] m_iszSpriteName: 0x1720 (String)

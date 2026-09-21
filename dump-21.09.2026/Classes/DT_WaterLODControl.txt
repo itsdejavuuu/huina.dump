@@ -1,0 +1,2 @@
+[DT_WaterLODControl] m_flCheapWaterEndDistance: 0x16B4 (Float)
+[DT_WaterLODControl] m_flCheapWaterStartDistance: 0x16B0 (Float)

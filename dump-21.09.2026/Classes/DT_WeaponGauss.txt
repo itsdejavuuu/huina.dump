@@ -1,0 +1,6 @@
+[DT_WeaponGauss] m_bPrimaryFire: 0x1C74 (Int)
+[DT_WeaponGauss] m_flAmmoStartCharge: 0x1C7C (Float)
+[DT_WeaponGauss] m_flNextAmmoBurn: 0x1C88 (VectorXY)
+[DT_WeaponGauss] m_flPlayAftershock: 0x1C80 (VectorXY)
+[DT_WeaponGauss] m_flStartCharge: 0x1C78 (Float)
+[DT_WeaponGauss] m_nAttackState: 0x1C70 (Int)

@@ -1,0 +1,2 @@
+[DT_WeaponHgun] m_flRechargeTime: 0x1C70 (Float)
+[DT_WeaponHgun] m_iFirePhase: 0x1C74 (Int)

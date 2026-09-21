@@ -1,0 +1,4 @@
+[DT_FuncAreaPortalWindow] m_flFadeDist: 0x16B4 (Float)
+[DT_FuncAreaPortalWindow] m_flFadeStartDist: 0x16B0 (Float)
+[DT_FuncAreaPortalWindow] m_flTranslucencyLimit: 0x16B8 (Float)
+[DT_FuncAreaPortalWindow] m_iBackgroundModelIndex: 0x16BC (Int)

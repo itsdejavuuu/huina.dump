@@ -1,0 +1,3 @@
+[DT_EntityParticleTrail] m_Info: 0x17E8 (DataTable)
+[DT_EntityParticleTrail] m_hConstraintEntity: 0x1808 (Int)
+[DT_EntityParticleTrail] m_iMaterialName: 0x17E0 (Int)

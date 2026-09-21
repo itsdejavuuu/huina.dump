@@ -1,0 +1,6 @@
+[DT_FireSmoke] m_flScale: 0x16B4 (Float)
+[DT_FireSmoke] m_flScaleTime: 0x16B8 (Float)
+[DT_FireSmoke] m_flStartScale: 0x16B0 (Float)
+[DT_FireSmoke] m_nFlags: 0x16BC (Int)
+[DT_FireSmoke] m_nFlameFromAboveModelIndex: 0x16C4 (Int)
+[DT_FireSmoke] m_nFlameModelIndex: 0x16C0 (Int)

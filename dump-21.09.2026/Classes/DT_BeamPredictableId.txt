@@ -1,0 +1,2 @@
+[DT_BeamPredictableId] m_PredictableID: 0xE8 (Int)
+[DT_BeamPredictableId] m_bIsPlayerSimulated: 0x734 (Int)

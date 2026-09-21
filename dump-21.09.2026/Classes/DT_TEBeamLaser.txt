@@ -1,0 +1,2 @@
+[DT_TEBeamLaser] m_nEndEntity: 0x64 (Int)
+[DT_TEBeamLaser] m_nStartEntity: 0x60 (Int)

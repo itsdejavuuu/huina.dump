@@ -1,0 +1,1 @@
+[DT_Corpse] m_nReferencePlayer: 0x1BC8 (Int)

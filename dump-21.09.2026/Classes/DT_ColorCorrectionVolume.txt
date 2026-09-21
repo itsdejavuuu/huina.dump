@@ -1,0 +1,6 @@
+[DT_ColorCorrectionVolume] m_FadeDuration: 0x1700 (Float)
+[DT_ColorCorrectionVolume] m_MaxWeight: 0x16FC (Float)
+[DT_ColorCorrectionVolume] m_Weight: 0x1704 (Float)
+[DT_ColorCorrectionVolume] m_bEnabled: 0x16F8 (Int)
+[DT_ColorCorrectionVolume] m_lookupFilename: 0x1708 (String)
+[DT_ColorCorrectionVolume] m_nModelIndex: 0xD4 (Int)

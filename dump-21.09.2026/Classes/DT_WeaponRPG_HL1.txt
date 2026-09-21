@@ -1,0 +1,3 @@
+[DT_WeaponRPG_HL1] m_bGuiding: 0x1C70 (Int)
+[DT_WeaponRPG_HL1] m_bIntialStateUpdate: 0x1C71 (Int)
+[DT_WeaponRPG_HL1] m_bLaserDotSuspended: 0x1C72 (Int)

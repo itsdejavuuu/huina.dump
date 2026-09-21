@@ -1,0 +1,6 @@
+[DT_TEBubbleTrail] m_fSpeed: 0x44 (Float)
+[DT_TEBubbleTrail] m_flWaterZ: 0x38 (Float)
+[DT_TEBubbleTrail] m_nCount: 0x40 (Int)
+[DT_TEBubbleTrail] m_nModelIndex: 0x3C (Int)
+[DT_TEBubbleTrail] m_vecMaxs: 0x2C (Vector)
+[DT_TEBubbleTrail] m_vecMins: 0x20 (Vector)
